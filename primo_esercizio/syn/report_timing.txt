@@ -1,0 +1,83 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : myfilter
+Version: O-2018.06-SP4
+Date   : Thu Oct 21 19:54:16 2021
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: reg_data_reg[0][1]
+              (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: reg_mult_reg[0][10]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  myfilter           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  reg_data_reg[0][1]/CK (DFFR_X1)                         0.00       0.00 r
+  reg_data_reg[0][1]/Q (DFFR_X1)                          0.18       0.18 r
+  mult_85/a[1] (myfilter_DW_mult_tc_10)                   0.00       0.18 r
+  mult_85/U472/Z (XOR2_X1)                                0.10       0.28 r
+  mult_85/U302/ZN (INV_X1)                                0.06       0.35 f
+  mult_85/U467/ZN (NAND2_X1)                              0.10       0.45 r
+  mult_85/U359/ZN (OAI22_X1)                              0.06       0.50 f
+  mult_85/U75/S (HA_X1)                                   0.08       0.58 f
+  mult_85/U464/ZN (AOI222_X1)                             0.11       0.69 r
+  mult_85/U304/ZN (INV_X1)                                0.03       0.72 f
+  mult_85/U463/ZN (AOI222_X1)                             0.09       0.81 r
+  mult_85/U303/ZN (INV_X1)                                0.03       0.84 f
+  mult_85/U462/ZN (AOI222_X1)                             0.09       0.93 r
+  mult_85/U298/ZN (INV_X1)                                0.03       0.96 f
+  mult_85/U461/ZN (AOI222_X1)                             0.09       1.05 r
+  mult_85/U297/ZN (INV_X1)                                0.03       1.08 f
+  mult_85/U460/ZN (AOI222_X1)                             0.09       1.18 r
+  mult_85/U300/ZN (INV_X1)                                0.03       1.20 f
+  mult_85/U459/ZN (AOI222_X1)                             0.09       1.30 r
+  mult_85/U299/ZN (INV_X1)                                0.03       1.32 f
+  mult_85/U458/ZN (AOI222_X1)                             0.09       1.42 r
+  mult_85/U296/ZN (INV_X1)                                0.03       1.44 f
+  mult_85/U15/CO (FA_X1)                                  0.09       1.53 f
+  mult_85/U14/CO (FA_X1)                                  0.09       1.62 f
+  mult_85/U13/CO (FA_X1)                                  0.09       1.71 f
+  mult_85/U12/CO (FA_X1)                                  0.09       1.80 f
+  mult_85/U11/CO (FA_X1)                                  0.09       1.90 f
+  mult_85/U10/CO (FA_X1)                                  0.09       1.99 f
+  mult_85/U9/CO (FA_X1)                                   0.09       2.08 f
+  mult_85/U8/CO (FA_X1)                                   0.09       2.17 f
+  mult_85/U7/CO (FA_X1)                                   0.09       2.26 f
+  mult_85/U6/CO (FA_X1)                                   0.09       2.35 f
+  mult_85/U330/ZN (AOI22_X1)                              0.06       2.41 r
+  mult_85/U306/ZN (INV_X1)                                0.02       2.44 f
+  mult_85/U329/ZN (AOI21_X1)                              0.05       2.49 r
+  mult_85/product[21] (myfilter_DW_mult_tc_10)            0.00       2.49 r
+  reg_mult_reg[0][10]/D (DFFR_X1)                         0.01       2.49 r
+  data arrival time                                                  2.49
+
+  clock MY_CLK (rise edge)                                5.00       5.00
+  clock network delay (ideal)                             0.00       5.00
+  clock uncertainty                                      -0.07       4.93
+  reg_mult_reg[0][10]/CK (DFFR_X1)                        0.00       4.93 r
+  library setup time                                     -0.04       4.89
+  data required time                                                 4.89
+  --------------------------------------------------------------------------
+  data required time                                                 4.89
+  data arrival time                                                 -2.49
+  --------------------------------------------------------------------------
+  slack (MET)                                                        2.40
+
+
+1
