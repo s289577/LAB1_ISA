@@ -1,0 +1,99 @@
+Loading db file '/software/synopsys/syn_current_64.18/libraries/syn/gtech.db'
+Loading db file '/software/synopsys/syn_current_64.18/libraries/syn/standard.sldb'
+  Loading link library 'NangateOpenCellLibrary'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+Warning:  ../src/myfilter.vhd:54: The initial value for signal 'pipe00_2' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/myfilter.vhd:55: The initial value for signal 'pipe02_3' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/myfilter.vhd:64: The initial value for signal 'pipe10_1' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/myfilter.vhd:65: The initial value for signal 'pipe11_2' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/myfilter.vhd:75: The initial value for signal 'pipe20_0' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/myfilter.vhd:76: The initial value for signal 'pipe21_1' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/myfilter.vhd:77: The initial value for signal 'pipe22_2' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/myfilter.vhd:90: The initial value for signal 'reg_add0' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/myfilter.vhd:90: The initial value for signal 'reg_add1' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+Warning:  ../src/myfilter.vhd:90: The initial value for signal 'reg_add2' is not supported for synthesis. Presto ignores it.  (ELAB-130)
+
+Inferred memory devices in process
+	in routine myfilter line 98 in file
+		'../src/myfilter.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    pipe22_2_reg     | Flip-flop |  11   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    reg_data0_reg    | Flip-flop |  11   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    reg_data1_reg    | Flip-flop |  11   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    reg_data2_reg    | Flip-flop |  11   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    reg_coeff_reg    | Flip-flop |  121  |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe00_4_reg     | Flip-flop |  22   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe02_5_reg     | Flip-flop |  22   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe00_6_reg     | Flip-flop |  33   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe02_7_reg     | Flip-flop |  33   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe00_8_reg     | Flip-flop |  44   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe02_9_reg     | Flip-flop |  44   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe00_10_reg    | Flip-flop |  55   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe00_2_reg     | Flip-flop |  11   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe02_3_reg     | Flip-flop |  11   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe10_3_reg     | Flip-flop |  22   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe11_4_reg     | Flip-flop |  22   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe10_5_reg     | Flip-flop |  33   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe11_6_reg     | Flip-flop |  33   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe10_7_reg     | Flip-flop |  44   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe11_8_reg     | Flip-flop |  44   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe10_9_reg     | Flip-flop |  55   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe11_10_reg    | Flip-flop |  55   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe10_1_reg     | Flip-flop |  11   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe11_2_reg     | Flip-flop |  11   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe21_3_reg     | Flip-flop |  22   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe22_4_reg     | Flip-flop |  22   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe21_5_reg     | Flip-flop |  33   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe22_6_reg     | Flip-flop |  33   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe21_7_reg     | Flip-flop |  44   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe22_8_reg     | Flip-flop |  44   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe21_9_reg     | Flip-flop |  55   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe22_10_reg    | Flip-flop |  55   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe20_0_reg     | Flip-flop |  11   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    pipe21_1_reg     | Flip-flop |  11   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine myfilter line 321 in file
+		'../src/myfilter.vhd'.
+=================================================================================
+|     Register Name     |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+=================================================================================
+|     reg_add2_reg      | Flip-flop |  11   |  Y  | N  | Y  | N  | N  | N  | N  |
+| out_mult_in_sum20_reg | Flip-flop |  121  |  Y  | N  | Y  | N  | N  | N  | N  |
+| out_sum_in_sum20_reg  | Flip-flop |  44   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     reg_add0_reg      | Flip-flop |  11   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     reg_add1_reg      | Flip-flop |  11   |  Y  | N  | Y  | N  | N  | N  | N  |
+=================================================================================
+
+Inferred memory devices in process
+	in routine myfilter line 369 in file
+		'../src/myfilter.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|   delay_vin2_reg    | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      VOUT1_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|      VOUT2_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|      VOUT3_reg      | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|   delay_vin0_reg    | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   delay_vin1_reg    | Flip-flop |   4   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine myfilter line 416 in file
+		'../src/myfilter.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      DOUT3_reg      | Flip-flop |  11   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      DOUT1_reg      | Flip-flop |  11   |  Y  | N  | Y  | N  | N  | N  | N  |
+|      DOUT2_reg      | Flip-flop |  11   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'myfilter'.
+1

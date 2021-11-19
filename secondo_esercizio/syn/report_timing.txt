@@ -1,0 +1,101 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'myfilter' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : myfilter
+Version: O-2018.06-SP4
+Date   : Mon Oct 25 20:48:22 2021
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: pipe00_2_reg[1]
+              (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: out_sum_in_sum20_reg[1][10]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  myfilter           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  pipe00_2_reg[1]/CK (DFFR_X1)                            0.00 #     0.00 r
+  pipe00_2_reg[1]/Q (DFFR_X1)                             0.17       0.17 r
+  mult_359_3/a[1] (myfilter_DW_mult_tc_24)                0.00       0.17 r
+  mult_359_3/U472/Z (XOR2_X1)                             0.10       0.28 r
+  mult_359_3/U302/ZN (INV_X1)                             0.06       0.34 f
+  mult_359_3/U467/ZN (NAND2_X1)                           0.10       0.44 r
+  mult_359_3/U359/ZN (OAI22_X1)                           0.06       0.49 f
+  mult_359_3/U75/S (HA_X1)                                0.08       0.58 f
+  mult_359_3/U464/ZN (AOI222_X1)                          0.11       0.69 r
+  mult_359_3/U305/ZN (INV_X1)                             0.03       0.71 f
+  mult_359_3/U463/ZN (AOI222_X1)                          0.09       0.81 r
+  mult_359_3/U304/ZN (INV_X1)                             0.03       0.84 f
+  mult_359_3/U462/ZN (AOI222_X1)                          0.09       0.93 r
+  mult_359_3/U300/ZN (INV_X1)                             0.03       0.96 f
+  mult_359_3/U461/ZN (AOI222_X1)                          0.09       1.05 r
+  mult_359_3/U299/ZN (INV_X1)                             0.03       1.08 f
+  mult_359_3/U460/ZN (AOI222_X1)                          0.09       1.17 r
+  mult_359_3/U297/ZN (INV_X1)                             0.03       1.20 f
+  mult_359_3/U459/ZN (AOI222_X1)                          0.09       1.29 r
+  mult_359_3/U296/ZN (INV_X1)                             0.03       1.32 f
+  mult_359_3/U458/ZN (AOI222_X1)                          0.09       1.41 r
+  mult_359_3/U298/ZN (INV_X1)                             0.03       1.44 f
+  mult_359_3/U15/CO (FA_X1)                               0.09       1.53 f
+  mult_359_3/U14/CO (FA_X1)                               0.09       1.62 f
+  mult_359_3/U13/CO (FA_X1)                               0.09       1.71 f
+  mult_359_3/U12/CO (FA_X1)                               0.09       1.80 f
+  mult_359_3/U11/CO (FA_X1)                               0.09       1.89 f
+  mult_359_3/U10/CO (FA_X1)                               0.09       1.98 f
+  mult_359_3/U9/CO (FA_X1)                                0.09       2.07 f
+  mult_359_3/U8/CO (FA_X1)                                0.09       2.16 f
+  mult_359_3/U7/CO (FA_X1)                                0.09       2.25 f
+  mult_359_3/U6/CO (FA_X1)                                0.09       2.34 f
+  mult_359_3/U330/ZN (AOI22_X1)                           0.06       2.41 r
+  mult_359_3/U307/ZN (INV_X1)                             0.02       2.43 f
+  mult_359_3/U329/ZN (AOI21_X1)                           0.06       2.49 r
+  mult_359_3/product[21] (myfilter_DW_mult_tc_24)         0.00       2.49 r
+  add_2_root_add_0_root_add_359_4/B[10] (myfilter_DW01_add_26)
+                                                          0.00       2.49 r
+  add_2_root_add_0_root_add_359_4/U1_10/S (FA_X1)         0.13       2.62 f
+  add_2_root_add_0_root_add_359_4/SUM[10] (myfilter_DW01_add_26)
+                                                          0.00       2.62 f
+  add_1_root_add_0_root_add_359_4/B[10] (myfilter_DW01_add_25)
+                                                          0.00       2.62 f
+  add_1_root_add_0_root_add_359_4/U1_10/S (FA_X1)         0.15       2.77 r
+  add_1_root_add_0_root_add_359_4/SUM[10] (myfilter_DW01_add_25)
+                                                          0.00       2.77 r
+  add_0_root_add_0_root_add_359_4/B[10] (myfilter_DW01_add_24)
+                                                          0.00       2.77 r
+  add_0_root_add_0_root_add_359_4/U1_10/S (FA_X1)         0.12       2.88 f
+  add_0_root_add_0_root_add_359_4/SUM[10] (myfilter_DW01_add_24)
+                                                          0.00       2.88 f
+  out_sum_in_sum20_reg[1][10]/D (DFFR_X1)                 0.01       2.89 f
+  data arrival time                                                  2.89
+
+  clock MY_CLK (rise edge)                                7.32       7.32
+  clock network delay (ideal)                             0.00       7.32
+  clock uncertainty                                      -0.07       7.25
+  out_sum_in_sum20_reg[1][10]/CK (DFFR_X1)                0.00       7.25 r
+  library setup time                                     -0.04       7.21
+  data required time                                                 7.21
+  --------------------------------------------------------------------------
+  data required time                                                 7.21
+  data arrival time                                                 -2.89
+  --------------------------------------------------------------------------
+  slack (MET)                                                        4.32
+
+
+1
