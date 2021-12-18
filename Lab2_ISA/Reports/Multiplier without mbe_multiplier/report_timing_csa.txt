@@ -1,0 +1,75 @@
+Warning: There are infeasible paths detected in your design that were ignored during optimization. Please run 'report_timing -attributes' and/or 'create_qor_snapshot/query_qor_snapshot -infeasible_paths' to identify these paths.  (OPT-1721)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : FPmul
+Version: O-2018.06-SP4
+Date   : Thu Dec  9 20:08:25 2021
+****************************************
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: I2/B_SIG_reg_reg[8]
+              (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: I2/SIG_in_reg_reg[19]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  FPmul              5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  I2/B_SIG_reg_reg[8]/CK (DFF_X1)                         0.00       0.00 r
+  I2/B_SIG_reg_reg[8]/QN (DFF_X1)                         0.08       0.08 f
+  U4539/ZN (XNOR2_X1)                                     0.11       0.19 r
+  U5707/ZN (INV_X1)                                       0.05       0.24 f
+  U4275/ZN (OR2_X1)                                       0.06       0.30 f
+  U4276/ZN (NAND2_X1)                                     0.04       0.34 r
+  U7062/ZN (INV_X1)                                       0.04       0.38 f
+  U7162/Z (XOR2_X1)                                       0.08       0.46 f
+  U4697/ZN (XNOR2_X1)                                     0.06       0.52 r
+  U4409/ZN (XNOR2_X1)                                     0.07       0.59 r
+  U5086/ZN (XNOR2_X1)                                     0.07       0.66 r
+  U4386/ZN (XNOR2_X1)                                     0.06       0.72 r
+  U7268/ZN (NAND2_X1)                                     0.03       0.75 f
+  U5727/ZN (AND2_X1)                                      0.04       0.79 f
+  U5771/ZN (XNOR2_X1)                                     0.06       0.85 f
+  U5770/ZN (XNOR2_X1)                                     0.06       0.90 f
+  U5307/Z (XOR2_X1)                                       0.07       0.97 f
+  U5306/ZN (XNOR2_X1)                                     0.06       1.03 f
+  I2/mbe/dt/add_940/A[30] (FPmul_DW01_add_14)             0.00       1.03 f
+  I2/mbe/dt/add_940/U720/ZN (NAND2_X1)                    0.04       1.07 r
+  I2/mbe/dt/add_940/U773/ZN (OAI21_X1)                    0.03       1.11 f
+  I2/mbe/dt/add_940/U551/ZN (AOI21_X1)                    0.06       1.17 r
+  I2/mbe/dt/add_940/U761/ZN (OAI21_X1)                    0.03       1.20 f
+  I2/mbe/dt/add_940/U648/ZN (AOI21_X1)                    0.06       1.26 r
+  I2/mbe/dt/add_940/U645/Z (BUF_X1)                       0.05       1.32 r
+  I2/mbe/dt/add_940/U797/ZN (OAI21_X1)                    0.04       1.35 f
+  I2/mbe/dt/add_940/U681/ZN (XNOR2_X1)                    0.05       1.41 f
+  I2/mbe/dt/add_940/SUM[39] (FPmul_DW01_add_14)           0.00       1.41 f
+  I2/SIG_in_reg_reg[19]/D (DFF_X1)                        0.01       1.41 f
+  data arrival time                                                  1.41
+
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  clock uncertainty                                      -0.07      -0.07
+  I2/SIG_in_reg_reg[19]/CK (DFF_X1)                       0.00      -0.07 r
+  library setup time                                     -0.04      -0.11
+  data required time                                                -0.11
+  --------------------------------------------------------------------------
+  data required time                                                -0.11
+  data arrival time                                                 -1.41
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -1.52
+
+
+1
