@@ -1,0 +1,64 @@
+define_design_lib WORK -path ./work
+set search_path [list . /software/synopsys/syn_current_64.18/libraries/syn /software/dk/nangate45/synopsys ]
+set link_library [list "*" "NangateOpenCellLibrary_typical_ecsm_nowlm.db" "dw_foundation.sldb" ]
+set target_library [list "NangateOpenCellLibrary_typical_ecsm_nowlm.db" ]
+set synthetic_library [list "dw_foundation.sldb" ]
+
+analyze -f vhdl -lib WORK ../src/riscv32i.vhd
+
+set power_preserve_rtl_hier_names true
+elaborate riscv32i -arch beh -lib WORK > ./elaborate.txt
+
+create_clock -name MY_CLK -period 10  clk
+set_clock_uncertainty 0.07 [get_clocks MY_CLK]
+set_dont_touch_network MY_CLK
+set_input_delay 0.5 -max -clock MY_CLK [remove_from_collection [all_input] CLK]
+set_output_delay 0.5 -max -clock MY_CLK [all_outputs]
+set OLOAD [load_of NangateOpenCellLibrary/BUF_X4/A]
+set_load $OLOAD [all_outputs]
+
+compile > compile.txt
+report_timing > report_timing.txt
+report_area > report_area.txt
+
+ungroup -all -flatten
+change_names -hierarchy -rules verilog
+write_sdf ../netlist/riscv32i.sdf
+write -f verilog -hierarchy -output ../netlist/riscv32i.v
+write_sdc ../netlist/riscv32i.sdc
+
+#Modelsim
+
+vlog -work ./work ../netlist/riscv32i.v
+vlog -work ./work ../tb/tb_riscv32i.v
+vcom -93 -work ./work ../tb/clk_gen.vhd
+vcom -93 -work ./work ../tb/data_memory.vhd
+vcom -93 -work ./work ../tb/instruction_memory.vhd
+
+
+vsim -L /software/dk/nangate45/verilog/msim6.2g work.tb_riscv32i
+vsim -L /software/dk/nangate45/verilog/msim6.2g -sdftyp /tb_riscv32i/UUT=../netlist/riscv32i.sdf work.tb_riscv32i
+vcd file ../vcd/riscv32i.vcd
+vcd add /tb_riscv32i/UUT/*
+run 2 us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

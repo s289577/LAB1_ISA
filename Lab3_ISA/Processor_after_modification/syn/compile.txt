@@ -1,0 +1,163 @@
+Information: Checking out the license 'DesignWare'. (SEC-104)
+Information: Evaluating DesignWare library utilization. (UISN-27)
+
+============================================================================
+| DesignWare Building Block Library  |         Version         | Available |
+============================================================================
+| Basic DW Building Blocks           | O-2018.06-DWBB_201806.4 |     *     |
+| Licensed DW Building Blocks        | O-2018.06-DWBB_201806.4 |     *     |
+============================================================================
+
+
+Information: There are 11 potential problems in your design. Please run 'check_design' for more information. (LINT-99)
+
+
+
+  Beginning Pass 1 Mapping
+  ------------------------
+  Processing 'mux41_0'
+  Processing 'alu'
+Information: Added key list 'DesignWare' to design 'alu'. (DDB-72)
+  Processing 'add_sum'
+  Processing 'sr'
+  Processing 'data_hazard_detection_unit_0'
+Information: Added key list 'DesignWare' to design 'data_hazard_detection_unit_0'. (DDB-72)
+  Processing 'data_hazard_extension'
+  Processing 'control_unit'
+  Processing 'imm_gen'
+  Processing 'registers'
+  Processing 'add'
+  Processing 'mux21'
+  Processing 'riscv32i'
+Information: The register 'floating_reg[31]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[30]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[29]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[28]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[27]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[26]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[25]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[24]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[23]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[22]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[21]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[20]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[19]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[18]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[17]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[16]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[15]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[14]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[13]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[12]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[11]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[10]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[9]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[8]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[7]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[6]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[5]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[4]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[3]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[2]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[1]' is a constant and will be removed. (OPT-1206)
+Information: The register 'floating_reg[0]' is a constant and will be removed. (OPT-1206)
+
+  Updating timing information
+Information: Updating design information... (UID-85)
+Information: Timing loop detected. (OPT-150)
+	data_hazard0/sr0/U2/A2 data_hazard0/sr0/U2/ZN data_hazard0/sr0/U1/A2 data_hazard0/sr0/U1/ZN 
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'data_hazard0/sr0/U2'
+         to break a timing loop. (OPT-314)
+
+  Beginning Implementation Selection
+  ----------------------------------
+  Mapping 'DW_sra'
+  Processing 'alu_DW01_add_0'
+  Processing 'add_sum_DW01_add_0'
+  Processing 'add_DW01_add_0'
+  Processing 'alu_DW01_inc_0'
+  Processing 'alu_DW01_sub_0'
+
+  Beginning Mapping Optimizations  (Medium effort)
+  -------------------------------
+Information: The register 'add_sum_sum_mem_reg[31]' is a constant and will be removed. (OPT-1206)
+Information: The register 'add_sum_id_reg[31]' is a constant and will be removed. (OPT-1206)
+Information: The register 'add_sum_ex_reg[31]' is a constant and will be removed. (OPT-1206)
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:02:10   16618.6      0.00       0.0       0.0                          
+    0:02:10   16618.6      0.00       0.0       0.0                          
+    0:02:10   16618.6      0.00       0.0       0.0                          
+    0:02:11   16618.6      0.00       0.0       0.0                          
+    0:02:11   16618.6      0.00       0.0       0.0                          
+    0:02:31   14055.7      0.00       0.0       0.0                          
+    0:02:31   14055.7      0.00       0.0       0.0                          
+    0:02:31   14055.7      0.00       0.0       0.0                          
+    0:02:32   14055.7      0.00       0.0       0.0                          
+    0:02:32   14055.7      0.00       0.0       0.0                          
+    0:02:32   14055.7      0.00       0.0       0.0                          
+    0:02:32   14055.7      0.00       0.0       0.0                          
+    0:02:32   14055.7      0.00       0.0       0.0                          
+
+
+
+  Beginning Delay Optimization Phase
+  ----------------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:02:32   14055.7      0.00       0.0       0.0                          
+    0:02:32   14055.7      0.00       0.0       0.0                          
+    0:02:33   14055.7      0.00       0.0       0.0                          
+
+
+  Beginning Area-Recovery Phase  (cleanup)
+  -----------------------------
+
+                                  TOTAL                                      
+   ELAPSED            WORST NEG   SETUP    DESIGN                            
+    TIME      AREA      SLACK     COST    RULE COST         ENDPOINT         
+  --------- --------- --------- --------- --------- -------------------------
+    0:02:33   14055.7      0.00       0.0       0.0                          
+    0:02:33   14055.7      0.00       0.0       0.0                          
+    0:02:42   14035.0      0.00       0.0       0.0                          
+    0:02:43   14032.3      0.00       0.0       0.0                          
+    0:02:44   14030.2      0.00       0.0       0.0                          
+    0:02:44   14027.8      0.00       0.0       0.0                          
+    0:02:45   14025.6      0.00       0.0       0.0                          
+    0:02:45   14023.5      0.00       0.0       0.0                          
+    0:02:46   14021.4      0.00       0.0       0.0                          
+    0:02:46   14019.8      0.00       0.0       0.0                          
+    0:02:46   14018.2      0.00       0.0       0.0                          
+    0:02:47   14016.6      0.00       0.0       0.0                          
+    0:02:47   14015.3      0.00       0.0       0.0                          
+    0:02:48   14013.7      0.00       0.0       0.0                          
+    0:02:48   14012.6      0.00       0.0       0.0                          
+    0:02:48   14011.6      0.00       0.0       0.0                          
+    0:02:49   14010.5      0.00       0.0       0.0                          
+    0:02:49   14009.7      0.00       0.0       0.0                          
+    0:02:49   14009.2      0.00       0.0       0.0                          
+    0:02:49   14009.2      0.00       0.0       0.0                          
+    0:02:50   14009.2      0.00       0.0       0.0                          
+    0:02:50   14009.2      0.00       0.0       0.0                          
+    0:02:50   14009.2      0.00       0.0       0.0                          
+    0:02:50   14009.2      0.00       0.0       0.0                          
+    0:02:50   14009.2      0.00       0.0       0.0                          
+    0:02:50   14009.2      0.00       0.0       0.0                          
+    0:02:51   14009.2      0.00       0.0       0.0                          
+Loading db file '/software/dk/nangate45/synopsys/NangateOpenCellLibrary_typical_ecsm_nowlm.db'
+
+
+Note: Symbol # after min delay cost means estimated hold TNS across all active scenarios 
+
+
+  Optimization Complete
+  ---------------------
+Warning: Design 'riscv32i' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+     Net 'data_hazard0/clk': 1450 load(s), 1 driver(s)
+1
