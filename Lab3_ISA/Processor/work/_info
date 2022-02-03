@@ -1,0 +1,728 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/temp/Desktop/Mult_lab_new_clock_2
+Eadd
+Z0 w1639411274
+Z1 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z2 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z3 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z4 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z5 dC:/Users/temp/Desktop/Lab3_notte_folle
+Z6 8C:/Users/temp/Desktop/Lab3_notte_folle/add.vhd
+Z7 FC:/Users/temp/Desktop/Lab3_notte_folle/add.vhd
+l0
+L7
+VfcHceP]ll3W__n_J@;<=F0
+!s100 XjQ]AGRT9TFzC:]]@@2gC3
+Z8 OV;C;10.5b;63
+32
+Z9 !s110 1640098741
+!i10b 1
+Z10 !s108 1640098741.000000
+Z11 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/temp/Desktop/Lab3_notte_folle/add.vhd|
+Z12 !s107 C:/Users/temp/Desktop/Lab3_notte_folle/add.vhd|
+!i113 1
+Z13 o-work work -2002 -explicit
+Z14 tExplicit 1 CvgOpt 0
+Abeh
+R1
+R2
+R3
+R4
+DEx4 work 3 add 0 22 fcHceP]ll3W__n_J@;<=F0
+l16
+L14
+VonAkjMc5^6WLFo1gf:^J_2
+!s100 TfM2hWA9MXJfYNhhjXAYi2
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 1
+R13
+R14
+Eadd_sum
+Z15 w1639410524
+Z16 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R2
+R1
+R3
+R4
+R5
+Z17 8C:/Users/temp/Desktop/Lab3_notte_folle/add_sum.vhd
+Z18 FC:/Users/temp/Desktop/Lab3_notte_folle/add_sum.vhd
+l0
+L10
+VJe>DM[oCcC<88CfcV9?^I0
+!s100 G`gaUZj0d^`aB1Df<GNSR0
+R8
+32
+R9
+!i10b 1
+R10
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/temp/Desktop/Lab3_notte_folle/add_sum.vhd|
+Z20 !s107 C:/Users/temp/Desktop/Lab3_notte_folle/add_sum.vhd|
+!i113 1
+R13
+R14
+Abeh
+R16
+R2
+R1
+R3
+R4
+DEx4 work 7 add_sum 0 22 Je>DM[oCcC<88CfcV9?^I0
+l20
+L18
+V;QXHnAUoG<:Y`<k0<`^?90
+!s100 6CP^REZY;21VaJPNY?Poa2
+R8
+32
+R9
+!i10b 1
+R10
+R19
+R20
+!i113 1
+R13
+R14
+Ealu
+Z21 w1640096462
+Z22 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+R16
+R1
+R2
+R3
+R4
+R5
+Z23 8C:/Users/temp/Desktop/Lab3_notte_folle/alu.vhd
+Z24 FC:/Users/temp/Desktop/Lab3_notte_folle/alu.vhd
+l0
+L11
+VZVL5S=VEMTYJ?V<:Hj2IT0
+!s100 43nlL]0jUP_:R>o`ZF_lE1
+R8
+32
+R9
+!i10b 1
+R10
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/temp/Desktop/Lab3_notte_folle/alu.vhd|
+Z26 !s107 C:/Users/temp/Desktop/Lab3_notte_folle/alu.vhd|
+!i113 1
+R13
+R14
+Abeh
+R22
+R16
+R1
+R2
+R3
+R4
+DEx4 work 3 alu 0 22 ZVL5S=VEMTYJ?V<:Hj2IT0
+l25
+L21
+VeD;OcB4<19_GzOJg61_243
+!s100 P_OSiYeM?lN9P=X12O0?m1
+R8
+32
+R9
+!i10b 1
+R10
+R25
+R26
+!i113 1
+R13
+R14
+Eclk_gen
+Z27 w1639505959
+R2
+R1
+R3
+R4
+R5
+Z28 8C:/Users/temp/Desktop/Lab3_notte_folle/clk_gen.vhd
+Z29 FC:/Users/temp/Desktop/Lab3_notte_folle/clk_gen.vhd
+l0
+L6
+VImmj_^ZahKJ^aJ^nS[W>R2
+!s100 SLN;:6OIZ2KZA<CIeaa3o2
+R8
+32
+R9
+!i10b 1
+R10
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/temp/Desktop/Lab3_notte_folle/clk_gen.vhd|
+Z31 !s107 C:/Users/temp/Desktop/Lab3_notte_folle/clk_gen.vhd|
+!i113 1
+R13
+R14
+Abeh
+R2
+R1
+R3
+R4
+DEx4 work 7 clk_gen 0 22 Immj_^ZahKJ^aJ^nS[W>R2
+l17
+L11
+VdNME3Zi65k_?UbHRLMUUW1
+!s100 YJZ426TV7Cc60X^dD9nKb3
+R8
+32
+R9
+!i10b 1
+R10
+R30
+R31
+!i113 1
+R13
+R14
+Econtrol_unit
+Z32 w1640011040
+R16
+R2
+R1
+R3
+R4
+R5
+Z33 8C:/Users/temp/Desktop/Lab3_notte_folle/control_unit.vhd
+Z34 FC:/Users/temp/Desktop/Lab3_notte_folle/control_unit.vhd
+l0
+L10
+VoSz;JBUCgnZdGeUO?[X3M1
+!s100 SbATC3iZO0Hf=OOTVQ?2?3
+R8
+32
+R9
+!i10b 1
+R10
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/temp/Desktop/Lab3_notte_folle/control_unit.vhd|
+Z36 !s107 C:/Users/temp/Desktop/Lab3_notte_folle/control_unit.vhd|
+!i113 1
+R13
+R14
+Abeh
+R16
+R2
+R1
+R3
+R4
+DEx4 work 12 control_unit 0 22 oSz;JBUCgnZdGeUO?[X3M1
+l27
+L24
+V4a33[Ik8VTj@acTi1oBX=3
+!s100 M8_935J?EV7fiNN@f<VOW3
+R8
+32
+R9
+!i10b 1
+R10
+R35
+R36
+!i113 1
+R13
+R14
+Edata_hazard_detection_unit
+Z37 w1639651862
+R16
+R2
+R1
+R3
+R4
+R5
+Z38 8C:/Users/temp/Desktop/Lab3_notte_folle/data_hazard_detection_unit.vhd
+Z39 FC:/Users/temp/Desktop/Lab3_notte_folle/data_hazard_detection_unit.vhd
+l0
+L10
+VMDGGPYn[cSAiT=DIbVoTi0
+!s100 MmK`ch9>oJGUa6F]W^d6I1
+R8
+32
+R9
+!i10b 1
+R10
+Z40 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/temp/Desktop/Lab3_notte_folle/data_hazard_detection_unit.vhd|
+Z41 !s107 C:/Users/temp/Desktop/Lab3_notte_folle/data_hazard_detection_unit.vhd|
+!i113 1
+R13
+R14
+Abeh
+R16
+R2
+R1
+R3
+R4
+DEx4 work 26 data_hazard_detection_unit 0 22 MDGGPYn[cSAiT=DIbVoTi0
+l23
+L19
+Vl@6jdn63e[8774Bi;UbMD1
+!s100 RHa45h:>PzP6M25M0QT7:2
+R8
+32
+R9
+!i10b 1
+R10
+R40
+R41
+!i113 1
+R13
+R14
+Edata_hazard_extension
+Z42 w1640023014
+R16
+R2
+R1
+R3
+R4
+R5
+Z43 8C:/Users/temp/Desktop/Lab3_notte_folle/data_hazard_extension.vhd
+Z44 FC:/Users/temp/Desktop/Lab3_notte_folle/data_hazard_extension.vhd
+l0
+L10
+V6PFTB@l10_@icHCRazQBn1
+!s100 Co8S5koXFeUD0MLD9CzPo3
+R8
+32
+R9
+!i10b 1
+R10
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/temp/Desktop/Lab3_notte_folle/data_hazard_extension.vhd|
+Z46 !s107 C:/Users/temp/Desktop/Lab3_notte_folle/data_hazard_extension.vhd|
+!i113 1
+R13
+R14
+Abeh
+R16
+R2
+R1
+R3
+R4
+DEx4 work 21 data_hazard_extension 0 22 6PFTB@l10_@icHCRazQBn1
+l53
+L21
+VI[Sjz4nM?X9AH@R32MlCZ2
+!s100 ZmL_Dl@`>E:jFKoQlaGil1
+R8
+32
+R9
+!i10b 1
+R10
+R45
+R46
+!i113 1
+R13
+R14
+Edata_memory
+Z47 w1640098734
+R16
+R2
+R1
+R3
+R4
+R5
+Z48 8C:/Users/temp/Desktop/Lab3_notte_folle/data_memory.vhd
+Z49 FC:/Users/temp/Desktop/Lab3_notte_folle/data_memory.vhd
+l0
+L10
+V;9[OmQniO5?;7JhGQgPME2
+!s100 ^55ceZ:f>eJKMR0S`A:>]3
+R8
+32
+R9
+!i10b 1
+R10
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/temp/Desktop/Lab3_notte_folle/data_memory.vhd|
+Z51 !s107 C:/Users/temp/Desktop/Lab3_notte_folle/data_memory.vhd|
+!i113 1
+R13
+R14
+Abeh
+R16
+R2
+R1
+R3
+R4
+DEx4 work 11 data_memory 0 22 ;9[OmQniO5?;7JhGQgPME2
+l26
+L20
+VXIbIKUiHdDS@Vd`]]D?H51
+!s100 h08L6?FQ5@CgRB[PE]nL61
+R8
+32
+R9
+!i10b 1
+R10
+R50
+R51
+!i113 1
+R13
+R14
+Eimm_gen
+Z52 w1640017322
+R16
+R2
+R1
+R3
+R4
+R5
+Z53 8C:/Users/temp/Desktop/Lab3_notte_folle/imm_gen.vhd
+Z54 FC:/Users/temp/Desktop/Lab3_notte_folle/imm_gen.vhd
+l0
+L10
+VI>P7F4P1AI50WeQ9iRJ921
+!s100 bngJA^APe^OHY5B<X2j1j1
+R8
+32
+R9
+!i10b 1
+R10
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/temp/Desktop/Lab3_notte_folle/imm_gen.vhd|
+Z56 !s107 C:/Users/temp/Desktop/Lab3_notte_folle/imm_gen.vhd|
+!i113 1
+R13
+R14
+Abeh
+R16
+R2
+R1
+R3
+R4
+DEx4 work 7 imm_gen 0 22 I>P7F4P1AI50WeQ9iRJ921
+l22
+L17
+V^HL;EQLEPAL:6GWO3LM9k1
+!s100 fF^nW9jnSI@8c=JG>DLVX1
+R8
+32
+R9
+!i10b 1
+R10
+R55
+R56
+!i113 1
+R13
+R14
+Einstruction_memory
+Z57 w1639974221
+R16
+R2
+R1
+R3
+R4
+R5
+Z58 8C:/Users/temp/Desktop/Lab3_notte_folle/instruction_memory.vhd
+Z59 FC:/Users/temp/Desktop/Lab3_notte_folle/instruction_memory.vhd
+l0
+L10
+Vc=gfE_WgD8;WHIV>g7e1U1
+!s100 jf1SmbSoTeeTUXZjZlKlB2
+R8
+32
+Z60 !s110 1640098742
+!i10b 1
+R10
+Z61 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/temp/Desktop/Lab3_notte_folle/instruction_memory.vhd|
+Z62 !s107 C:/Users/temp/Desktop/Lab3_notte_folle/instruction_memory.vhd|
+!i113 1
+R13
+R14
+Abeh
+R16
+R2
+R1
+R3
+R4
+DEx4 work 18 instruction_memory 0 22 c=gfE_WgD8;WHIV>g7e1U1
+l19
+L17
+VOoMYMNhmE4]Y6<J>`VCHK1
+!s100 HLkMVU0jJ];o_nf=`:58c1
+R8
+32
+R60
+!i10b 1
+R10
+R61
+R62
+!i113 1
+R13
+R14
+Emux21
+Z63 w1639241016
+R16
+R2
+R1
+R3
+R4
+R5
+Z64 8C:/Users/temp/Desktop/Lab3_notte_folle/mux21.vhd
+Z65 FC:/Users/temp/Desktop/Lab3_notte_folle/mux21.vhd
+l0
+L10
+Vb<hU5`B]PeN<b^K2LkN3E2
+!s100 Yje`iJLP4Mm7TIKm4b6>[3
+R8
+32
+R60
+!i10b 1
+Z66 !s108 1640098742.000000
+Z67 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/temp/Desktop/Lab3_notte_folle/mux21.vhd|
+Z68 !s107 C:/Users/temp/Desktop/Lab3_notte_folle/mux21.vhd|
+!i113 1
+R13
+R14
+Abeh
+R16
+R2
+R1
+R3
+R4
+DEx4 work 5 mux21 0 22 b<hU5`B]PeN<b^K2LkN3E2
+l21
+L19
+VTUgkXnM59n@QP?GUD0mMX1
+!s100 n3ndG[<f=WW@Qj;i?nQ663
+R8
+32
+R60
+!i10b 1
+R66
+R67
+R68
+!i113 1
+R13
+R14
+Emux41
+Z69 w1639410578
+R16
+R2
+R1
+R3
+R4
+R5
+Z70 8C:/Users/temp/Desktop/Lab3_notte_folle/mux41.vhd
+Z71 FC:/Users/temp/Desktop/Lab3_notte_folle/mux41.vhd
+l0
+L10
+V0BMdoJ_U61W^aN3A;YG1^2
+!s100 CzIoCGbBHm^Wz^ONLfV4A0
+R8
+32
+R60
+!i10b 1
+R66
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/temp/Desktop/Lab3_notte_folle/mux41.vhd|
+Z73 !s107 C:/Users/temp/Desktop/Lab3_notte_folle/mux41.vhd|
+!i113 1
+R13
+R14
+Abeh
+R16
+R2
+R1
+R3
+R4
+DEx4 work 5 mux41 0 22 0BMdoJ_U61W^aN3A;YG1^2
+l23
+L21
+Vk^>IjJa`5NZ>A=O>4KmP^3
+!s100 Hg=1Q?VeEcm:YVQT?R9iI1
+R8
+32
+R60
+!i10b 1
+R66
+R72
+R73
+!i113 1
+R13
+R14
+Eregisters
+Z74 w1639574206
+R16
+R2
+R1
+R3
+R4
+R5
+Z75 8C:/Users/temp/Desktop/Lab3_notte_folle/registers.vhd
+Z76 FC:/Users/temp/Desktop/Lab3_notte_folle/registers.vhd
+l0
+L10
+V:W;f@[k>gZ1i=ZRG`f0Mg3
+!s100 <GBmVfT?W1<zTnQJ6^UWB0
+R8
+32
+R60
+!i10b 1
+R66
+Z77 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/temp/Desktop/Lab3_notte_folle/registers.vhd|
+Z78 !s107 C:/Users/temp/Desktop/Lab3_notte_folle/registers.vhd|
+!i113 1
+R13
+R14
+Abeh
+R16
+R2
+R1
+R3
+R4
+DEx4 work 9 registers 0 22 :W;f@[k>gZ1i=ZRG`f0Mg3
+l26
+L22
+VhV7ie32DE6<hkC3BeWPe^3
+!s100 7hHg6MQ4i<Kn]7GeA6`HP2
+R8
+32
+R60
+!i10b 1
+R66
+R77
+R78
+!i113 1
+R13
+R14
+Eriscv32i
+Z79 w1640097984
+R22
+R16
+R1
+R2
+R3
+R4
+R5
+Z80 8C:/Users/temp/Desktop/Lab3_notte_folle/riscv32i.vhd
+Z81 FC:/Users/temp/Desktop/Lab3_notte_folle/riscv32i.vhd
+l0
+L11
+V6G`ailo`8Uc93:`hAaFiR3
+!s100 YBGdhAHWM2Qon7U1W@XcP2
+R8
+32
+R60
+!i10b 1
+R66
+Z82 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/temp/Desktop/Lab3_notte_folle/riscv32i.vhd|
+Z83 !s107 C:/Users/temp/Desktop/Lab3_notte_folle/riscv32i.vhd|
+!i113 1
+R13
+R14
+Abeh
+R22
+R16
+R1
+R2
+R3
+R4
+DEx4 work 8 riscv32i 0 22 6G`ailo`8Uc93:`hAaFiR3
+l209
+L28
+VEEWBI7fLG:iXR6EXFoPTN3
+!s100 2o:f5O9gfz?gecVU17mgj1
+R8
+32
+R60
+!i10b 1
+R66
+R82
+R83
+!i113 1
+R13
+R14
+Esr
+Z84 w1639916616
+R2
+R1
+R3
+R4
+R5
+Z85 8C:/Users/temp/Desktop/Lab3_notte_folle/sr.vhd
+Z86 FC:/Users/temp/Desktop/Lab3_notte_folle/sr.vhd
+l0
+L6
+V]fDIjeonQ8?dO01odJNIj2
+!s100 YIgkZGSLF]O`H99XSUIOY2
+R8
+32
+R60
+!i10b 1
+R66
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/temp/Desktop/Lab3_notte_folle/sr.vhd|
+Z88 !s107 C:/Users/temp/Desktop/Lab3_notte_folle/sr.vhd|
+!i113 1
+R13
+R14
+Abeh
+R2
+R1
+R3
+R4
+Z89 DEx4 work 2 sr 0 22 ]fDIjeonQ8?dO01odJNIj2
+l15
+L13
+Z90 Vn7bXPoa?o`bnAG4:ZO`a[1
+Z91 !s100 Q1FJ0b]QIW6AIzJ_=Y[bK1
+R8
+32
+R60
+!i10b 1
+R66
+R87
+R88
+!i113 1
+R13
+R14
+Etb
+Z92 w1639570297
+R16
+R2
+R1
+R3
+R4
+R5
+Z93 8C:/Users/temp/Desktop/Lab3_notte_folle/tb_riscv32i.vhd
+Z94 FC:/Users/temp/Desktop/Lab3_notte_folle/tb_riscv32i.vhd
+l0
+L10
+VfPRlYia6mfMnh^Xjh1JjH3
+!s100 ``?8IdF6V80UO^VNKo6423
+R8
+32
+R9
+!i10b 1
+R10
+Z95 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/temp/Desktop/Lab3_notte_folle/tb_riscv32i.vhd|
+Z96 !s107 C:/Users/temp/Desktop/Lab3_notte_folle/tb_riscv32i.vhd|
+!i113 1
+R13
+R14
+Abeh
+R16
+R2
+R1
+R3
+R4
+DEx4 work 2 tb 0 22 fPRlYia6mfMnh^Xjh1JjH3
+l62
+L13
+VG<ifXE]QBf3>CZ=I<5Jd30
+!s100 _neZ_R@f^MSTB^dFI^0SN3
+R8
+32
+R9
+!i10b 1
+R10
+R95
+R96
+!i113 1
+R13
+R14

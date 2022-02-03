@@ -1,0 +1,154 @@
+Loading db file '/software/synopsys/syn_current_64.18/libraries/syn/gtech.db'
+Loading db file '/software/synopsys/syn_current_64.18/libraries/syn/standard.sldb'
+  Loading link library 'NangateOpenCellLibrary'
+  Loading link library 'gtech'
+Running PRESTO HDLC
+
+Inferred memory devices in process
+	in routine riscv32i line 221 in file
+		'/home/isa33_2021_2022/Desktop/Lab3_finale/src/riscv32i.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    floating_reg     |   Latch   |  32   |  Y  | N  | N  | Y  | -  | -  | -  |
+|    output_pc_reg    | Flip-flop |  12   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    output_pc_reg    | Flip-flop |  20   |  Y  | N  | N  | Y  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine riscv32i line 244 in file
+		'/home/isa33_2021_2022/Desktop/Lab3_finale/src/riscv32i.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+| instruction_id_reg  | Flip-flop |  17   |  Y  | N  | Y  | N  | N  | N  | N  |
+| instruction_id_reg  | Flip-flop |  15   |  Y  | N  | N  | Y  | N  | N  | N  |
+|   add_sum_id_reg    | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  output_pc_id_reg   | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine riscv32i line 274 in file
+		'/home/isa33_2021_2022/Desktop/Lab3_finale/src/riscv32i.vhd'.
+=================================================================================
+|     Register Name     |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+=================================================================================
+| write_register_ex_reg | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    add_sum_ex_reg     | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     branch_ex_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|    mem_read_ex_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|   mem_to_reg_ex_reg   | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   alu_op_sel_ex_reg   | Flip-flop |   3   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   mem_write_ex_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|    alu_src_ex_reg     | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   reg_write_ex_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|   output_pc_ex_reg    | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  read_data_1_ex_reg   | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  read_data_2_ex_reg   | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   immediate_ex_reg    | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+=================================================================================
+
+Inferred memory devices in process
+	in routine riscv32i line 330 in file
+		'/home/isa33_2021_2022/Desktop/Lab3_finale/src/riscv32i.vhd'.
+==================================================================================
+|     Register Name      |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+==================================================================================
+| write_register_mem_reg | Flip-flop |   5   |  Y  | N  | Y  | N  | N  | N  | N  |
+|     branch_mem_reg     | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|    mem_read_mem_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|   mem_to_reg_mem_reg   | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+|   mem_write_mem_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|   reg_write_mem_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|  add_sum_sum_mem_reg   | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|    alu_zero_mem_reg    | Flip-flop |   1   |  N  | N  | Y  | N  | N  | N  | N  |
+|   alu_result_mem_reg   | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+|  read_data_2_mem_reg   | Flip-flop |  32   |  Y  | N  | Y  | N  | N  | N  | N  |
+==================================================================================
+Presto compilation completed successfully.
+Elaborated 1 design.
+Current design is now 'riscv32i'.
+Information: Building the design 'mux21'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'add'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'registers'. (HDL-193)
+
+Inferred memory devices in process
+	in routine registers line 31 in file
+		'/home/isa33_2021_2022/Desktop/Lab3_finale/src/registers.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|    registers_reg    | Flip-flop | 1024  |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Statistics for MUX_OPs
+======================================================
+| block name/line  | Inputs | Outputs | # sel inputs |
+======================================================
+|   registers/79   |   32   |   32    |      5       |
+|   registers/80   |   32   |   32    |      5       |
+======================================================
+Presto compilation completed successfully.
+Information: Building the design 'imm_gen'. (HDL-193)
+
+Statistics for case statements in always block at line 26 in file
+	'/home/isa33_2021_2022/Desktop/Lab3_finale/src/imm_gen.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            28            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'control_unit'. (HDL-193)
+
+Statistics for case statements in always block at line 27 in file
+	'/home/isa33_2021_2022/Desktop/Lab3_finale/src/control_unit.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            30            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'data_hazard_extension'. (HDL-193)
+
+Inferred memory devices in process
+	in routine data_hazard_extension line 65 in file
+		'/home/isa33_2021_2022/Desktop/Lab3_finale/src/data_hazard_extension.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      rd_d3_reg      | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+|      rd_d2_reg      | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+|      rd_d1_reg      | Flip-flop |   5   |  Y  | N  | N  | N  | N  | N  | N  |
+===============================================================================
+
+Inferred memory devices in process
+	in routine data_hazard_extension line 76 in file
+		'/home/isa33_2021_2022/Desktop/Lab3_finale/src/data_hazard_extension.vhd'.
+===============================================================================
+|    Register Name    |   Type    | Width | Bus | MB | AR | AS | SR | SS | ST |
+===============================================================================
+|      count_reg      | Flip-flop |   2   |  Y  | N  | Y  | N  | N  | N  | N  |
+===============================================================================
+Presto compilation completed successfully.
+Information: Building the design 'add_sum'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'alu'. (HDL-193)
+Warning:  /home/isa33_2021_2022/Desktop/Lab3_finale/src/alu.vhd:26: Initial values for signals/variables are not supported for synthesis by default. They are ignored. (VHD-7)
+
+Statistics for case statements in always block at line 26 in file
+	'/home/isa33_2021_2022/Desktop/Lab3_finale/src/alu.vhd'
+===============================================
+|           Line           |  full/ parallel  |
+===============================================
+|            33            |    auto/auto     |
+===============================================
+Presto compilation completed successfully.
+Information: Building the design 'mux41'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'data_hazard_detection_unit'. (HDL-193)
+Presto compilation completed successfully.
+Information: Building the design 'sr'. (HDL-193)
+Presto compilation completed successfully.
+1

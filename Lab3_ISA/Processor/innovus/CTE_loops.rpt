@@ -1,0 +1,9 @@
+     +----------------------------------+ 
+     |          Pin           |  Cell   | 
+     |------------------------+---------| 
+     | data_hazard0_sr0_U1/ZN | NOR2_X1 | 
+     | data_hazard0_sr0_U2/A2 | NOR2_X2 | 
+     | data_hazard0_sr0_U2/ZN | NOR2_X2 | 
+     | data_hazard0_sr0_U1/A2 | NOR2_X1 | 
+     | data_hazard0_sr0_U1/ZN | NOR2_X1 | 
+     +----------------------------------+ 

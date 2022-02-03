@@ -1,0 +1,103 @@
+Information: Updating design information... (UID-85)
+Warning: Design 'riscv32i' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Information: Timing loop detected. (OPT-150)
+	data_hazard0/sr0/U2/A2 data_hazard0/sr0/U2/ZN data_hazard0/sr0/U1/A2 data_hazard0/sr0/U1/ZN 
+Warning: Disabling timing arc between pins 'A2' and 'ZN' on cell 'data_hazard0/sr0/U2'
+         to break a timing loop. (OPT-314)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : riscv32i
+Version: O-2018.06-SP4
+Date   : Wed Jan 19 02:16:40 2022
+****************************************
+
+ # A fanout number of 1000 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: alu_src_ex_reg[0]
+              (rising edge-triggered flip-flop clocked by MY_CLK)
+  Endpoint: alu_result_mem_reg[31]
+            (rising edge-triggered flip-flop clocked by MY_CLK)
+  Path Group: MY_CLK
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  riscv32i           5K_hvratio_1_1        NangateOpenCellLibrary
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock MY_CLK (rise edge)                                0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  alu_src_ex_reg[0]/CK (DFFR_X1)                          0.00 #     0.00 r
+  alu_src_ex_reg[0]/Q (DFFR_X1)                           0.11       0.11 r
+  mux41_0/s[0] (mux41_0)                                  0.00       0.11 r
+  mux41_0/U15/ZN (INV_X1)                                 0.03       0.13 f
+  mux41_0/U14/ZN (NOR2_X1)                                0.04       0.18 r
+  mux41_0/U5/Z (BUF_X1)                                   0.08       0.26 r
+  mux41_0/U4/ZN (NOR3_X1)                                 0.04       0.30 f
+  mux41_0/U2/Z (BUF_X1)                                   0.07       0.37 f
+  mux41_0/U44/ZN (AOI22_X1)                               0.07       0.45 r
+  mux41_0/U42/ZN (NAND2_X1)                               0.10       0.54 f
+  mux41_0/e[2] (mux41_0)                                  0.00       0.54 f
+  alu0/b[2] (alu)                                         0.00       0.54 f
+  alu0/U238/ZN (INV_X1)                                   0.07       0.62 r
+  alu0/U21/ZN (INV_X1)                                    0.09       0.71 f
+  alu0/add_35/B[2] (alu_DW01_add_0)                       0.00       0.71 f
+  alu0/add_35/U1_2/CO (FA_X1)                             0.15       0.86 f
+  alu0/add_35/U1_3/CO (FA_X1)                             0.09       0.95 f
+  alu0/add_35/U1_4/CO (FA_X1)                             0.09       1.04 f
+  alu0/add_35/U1_5/CO (FA_X1)                             0.09       1.13 f
+  alu0/add_35/U1_6/CO (FA_X1)                             0.09       1.22 f
+  alu0/add_35/U1_7/CO (FA_X1)                             0.09       1.31 f
+  alu0/add_35/U1_8/CO (FA_X1)                             0.09       1.40 f
+  alu0/add_35/U1_9/CO (FA_X1)                             0.09       1.49 f
+  alu0/add_35/U1_10/CO (FA_X1)                            0.09       1.58 f
+  alu0/add_35/U1_11/CO (FA_X1)                            0.09       1.67 f
+  alu0/add_35/U1_12/CO (FA_X1)                            0.09       1.76 f
+  alu0/add_35/U1_13/CO (FA_X1)                            0.09       1.85 f
+  alu0/add_35/U1_14/CO (FA_X1)                            0.09       1.94 f
+  alu0/add_35/U1_15/CO (FA_X1)                            0.09       2.03 f
+  alu0/add_35/U1_16/CO (FA_X1)                            0.09       2.12 f
+  alu0/add_35/U1_17/CO (FA_X1)                            0.09       2.22 f
+  alu0/add_35/U1_18/CO (FA_X1)                            0.09       2.31 f
+  alu0/add_35/U1_19/CO (FA_X1)                            0.09       2.40 f
+  alu0/add_35/U1_20/CO (FA_X1)                            0.09       2.49 f
+  alu0/add_35/U1_21/CO (FA_X1)                            0.09       2.58 f
+  alu0/add_35/U1_22/CO (FA_X1)                            0.09       2.67 f
+  alu0/add_35/U1_23/CO (FA_X1)                            0.09       2.76 f
+  alu0/add_35/U1_24/CO (FA_X1)                            0.09       2.85 f
+  alu0/add_35/U1_25/CO (FA_X1)                            0.09       2.94 f
+  alu0/add_35/U1_26/CO (FA_X1)                            0.09       3.03 f
+  alu0/add_35/U1_27/CO (FA_X1)                            0.09       3.12 f
+  alu0/add_35/U1_28/CO (FA_X1)                            0.09       3.21 f
+  alu0/add_35/U1_29/CO (FA_X1)                            0.09       3.30 f
+  alu0/add_35/U1_30/CO (FA_X1)                            0.09       3.39 f
+  alu0/add_35/U1_31/S (FA_X1)                             0.11       3.50 f
+  alu0/add_35/SUM[31] (alu_DW01_add_0)                    0.00       3.50 f
+  alu0/U58/ZN (AOI22_X1)                                  0.06       3.56 r
+  alu0/U56/ZN (NAND2_X1)                                  0.03       3.58 f
+  alu0/alu_result[31] (alu)                               0.00       3.58 f
+  alu_result_mem_reg[31]/D (DFFR_X1)                      0.01       3.59 f
+  data arrival time                                                  3.59
+
+  clock MY_CLK (rise edge)                               10.00      10.00
+  clock network delay (ideal)                             0.00      10.00
+  clock uncertainty                                      -0.07       9.93
+  alu_result_mem_reg[31]/CK (DFFR_X1)                     0.00       9.93 r
+  library setup time                                     -0.04       9.89
+  data required time                                                 9.89
+  --------------------------------------------------------------------------
+  data required time                                                 9.89
+  data arrival time                                                 -3.59
+  --------------------------------------------------------------------------
+  slack (MET)                                                        6.30
+
+
+1
