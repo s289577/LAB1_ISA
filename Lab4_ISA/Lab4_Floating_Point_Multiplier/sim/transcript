@@ -1,0 +1,635 @@
+# //  Questa Sim-64
+# //  Version 10.7c linux_x86_64 Aug 17 2018
+# //
+# //  Copyright 1991-2018 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# vsim top 
+# Start time: 14:46:02 on Mar 08,2022
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: ../tb/monitor.sv(49): (vopt-2240) Treating stand-alone use of function 'begin_tr' as an implicit VOID cast.
+# ** Warning: ../tb/monitor_out.sv(48): (vopt-2240) Treating stand-alone use of function 'begin_tr' as an implicit VOID cast.
+# Loading sv_std.std
+# Loading mtiUvm.uvm_pkg
+# Loading work.top_sv_unit(fast)
+# Loading work.top(fast)
+# Loading work.DUT(fast)
+# Loading mtiUvm.questa_uvm_pkg(fast)
+# Loading work.dut_if(fast)
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.fpmul(single_cycle)#1
+# Loading work.fpnormalize(fpnormalize)#1
+# Loading work.fpround(fpround)#1
+# Loading work.packfp(packfp)#1
+# Loading work.unpackfp(unpackfp)#1
+# ** Warning: (vsim-3839) Variable '/top/out/data', driven via a port connection, is multiply driven. See ../src/DUT.sv(3).
+#    Time: 0 ns  Iteration: 0  Instance: /top/sum File: ../src/DUT.sv Line: 9
+# ** Warning: (vsim-3764) Stand-alone call to function 'begin_tr' treated as implicit void cast.
+#    Time: 0 ns  Iteration: 0  Region: /top_sv_unit::driver File: ../tb/driver.sv Line: 67
+# Loading /software/mentor/questa10.7c/questasim/uvm-1.1d/linux_x86_64/uvm_dpi.so
+run 4us
+# ----------------------------------------------------------------
+# UVM-1.1d
+# (C) 2007-2013 Mentor Graphics Corporation
+# (C) 2007-2013 Cadence Design Systems, Inc.
+# (C) 2006-2013 Synopsys, Inc.
+# (C) 2011-2013 Cypress Semiconductor Corp.
+# ----------------------------------------------------------------
+# 
+#   ***********       IMPORTANT RELEASE NOTES         ************
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_NO_DEPRECATED undefined.
+#   See http://www.eda.org/svdb/view.php?id=3313 for more details.
+# 
+#   You are using a version of the UVM library that has been compiled
+#   with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+#   See http://www.eda.org/svdb/view.php?id=3770 for more details.
+# 
+#       (Specify +UVM_NO_RELNOTES to turn off this notice)
+# 
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(215) @ 0: reporter [Questa UVM] QUESTA_UVM-1.2.3
+# UVM_INFO verilog_src/questa_uvm_pkg-1.2/src/questa_uvm_pkg.sv(216) @ 0: reporter [Questa UVM]  questa_uvm::init(+struct)
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/sum/fpmultiplier_under_test/I11
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/sum/fpmultiplier_under_test/I11
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/sum/fpmultiplier_under_test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/sum/fpmultiplier_under_test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/sum/fpmultiplier_under_test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/sum/fpmultiplier_under_test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/sum/fpmultiplier_under_test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/sum/fpmultiplier_under_test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 0  Instance: /top/sum/fpmultiplier_under_test
+# UVM_INFO @ 0: reporter [RNTST] Running test simple_test...
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /top/sum/fpmultiplier_under_test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /top/sum/fpmultiplier_under_test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /top/sum/fpmultiplier_under_test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /top/sum/fpmultiplier_under_test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /top/sum/fpmultiplier_under_test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 1  Instance: /top/sum/fpmultiplier_under_test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /top/sum/fpmultiplier_under_test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /top/sum/fpmultiplier_under_test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /top/sum/fpmultiplier_under_test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /top/sum/fpmultiplier_under_test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /top/sum/fpmultiplier_under_test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 2  Instance: /top/sum/fpmultiplier_under_test
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 3  Instance: /top/sum/fpmultiplier_under_test/I11
+# ** Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+#    Time: 0 ns  Iteration: 3  Instance: /top/sum/fpmultiplier_under_test/I11
+# multiplier: input A =  657625904, input B =  703604222, output OUT =  296191101
+# multiplier: input A = 00100111001100101001001100110000, input B = 00101001111100000010010111111110, output OUT = 00010001101001111000010001111101
+# refmod: input A =   657625904, input B =   703604222, output OUT =   296191101
+# refmod: input A = 00100111001100101001001100110000, input B = 00101001111100000010010111111110, output OUT = 00010001101001111000010001111101
+# UVM_INFO @ 45: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  608861836, input B =  878052636, output OUT =  422136276
+# multiplier: input A = 00100100010010100111111010001100, input B = 00110100010101100000010100011100, output OUT = 00011001001010010100100111010100
+# refmod: input A =   608861836, input B =   878052636, output OUT =   422136276
+# refmod: input A = 00100100010010100111111010001100, input B = 00110100010101100000010100011100, output OUT = 00011001001010010100100111010100
+# UVM_INFO @ 75: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  789361013, input B = 1069526736, output OUT =  793948402
+# multiplier: input A = 00101111000011001011000101110101, input B = 00111111101111111010111011010000, output OUT = 00101111010100101011000011110010
+# refmod: input A =   789361013, input B =  1069526736, output OUT =   793948402
+# refmod: input A = 00101111000011001011000101110101, input B = 00111111101111111010111011010000, output OUT = 00101111010100101011000011110010
+# UVM_INFO @ 105: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  896739897, input B =  681420245, output OUT =  513130089
+# multiplier: input A = 00110101011100110010101000111001, input B = 00101000100111011010010111010101, output OUT = 00011110100101011011111001101001
+# refmod: input A =   896739897, input B =   681420245, output OUT =   513130089
+# refmod: input A = 00110101011100110010101000111001, input B = 00101000100111011010010111010101, output OUT = 00011110100101011011111001101001
+# UVM_INFO @ 135: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A = 1063127376, input B = 1022985710, output OUT = 1020816184
+# multiplier: input A = 00111111010111100000100101010000, input B = 00111100111110011000010111101110, output OUT = 00111100110110000110101100111000
+# refmod: input A =  1063127376, input B =  1022985710, output OUT =  1020816184
+# refmod: input A = 00111111010111100000100101010000, input B = 00111100111110011000010111101110, output OUT = 00111100110110000110101100111000
+# UVM_INFO @ 165: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  668894999, input B =  566348789, output OUT =  170423586
+# multiplier: input A = 00100111110111101000011100010111, input B = 00100001110000011100101111110101, output OUT = 00001010001010000111010100100010
+# refmod: input A =   668894999, input B =   566348789, output OUT =   170423586
+# refmod: input A = 00100111110111101000011100010111, input B = 00100001110000011100101111110101, output OUT = 00001010001010000111010100100010
+# UVM_INFO @ 195: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A = 1068491612, input B =  772844921, output OUT =  776392231
+# multiplier: input A = 00111111101011111110001101011100, input B = 00101110000100001010110101111001, output OUT = 00101110010001101100111000100111
+# refmod: input A =  1068491612, input B =   772844921, output OUT =   776392231
+# refmod: input A = 00111111101011111110001101011100, input B = 00101110000100001010110101111001, output OUT = 00101110010001101100111000100111
+# UVM_INFO @ 225: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  912375170, input B =  678501425, output OUT =  525638723
+# multiplier: input A = 00110110011000011011110110000010, input B = 00101000011100010001110000110001, output OUT = 00011111010101001001110001000011
+# refmod: input A =   912375170, input B =   678501425, output OUT =   525638723
+# refmod: input A = 00110110011000011011110110000010, input B = 00101000011100010001110000110001, output OUT = 00011111010101001001110001000011
+# UVM_INFO @ 255: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  671682338, input B =  770003006, output OUT =  376802047
+# multiplier: input A = 00101000000010010000111100100010, input B = 00101101111001010101000000111110, output OUT = 00010110011101011000101011111111
+# refmod: input A =   671682338, input B =   770003006, output OUT =   376802047
+# refmod: input A = 00101000000010010000111100100010, input B = 00101101111001010101000000111110, output OUT = 00010110011101011000101011111111
+# UVM_INFO @ 285: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  754228901, input B =  977238602, output OUT =  666302263
+# multiplier: input A = 00101100111101001001111010100101, input B = 00111010001111110111101001001010, output OUT = 00100111101101101111011100110111
+# refmod: input A =   754228901, input B =   977238602, output OUT =   666302263
+# refmod: input A = 00101100111101001001111010100101, input B = 00111010001111110111101001001010, output OUT = 00100111101101101111011100110111
+# UVM_INFO @ 315: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  996516602, input B =  883429107, output OUT =  815186013
+# multiplier: input A = 00111011011001011010001011111010, input B = 00110100101010000000111011110011, output OUT = 00110000100101101100000001011101
+# refmod: input A =   996516602, input B =   883429107, output OUT =   815186013
+# refmod: input A = 00111011011001011010001011111010, input B = 00110100101010000000111011110011, output OUT = 00110000100101101100000001011101
+# UVM_INFO @ 345: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  701201262, input B = 1024114569, output OUT =  660377999
+# multiplier: input A = 00101001110010110111101101101110, input B = 00111101000010101011111110001001, output OUT = 00100111010111001001000110001111
+# refmod: input A =   701201262, input B =  1024114569, output OUT =   660377999
+# refmod: input A = 00101001110010110111101101101110, input B = 00111101000010101011111110001001, output OUT = 00100111010111001001000110001111
+# UVM_INFO @ 375: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  702515859, input B =  618555414, output OUT =  255997199
+# multiplier: input A = 00101001110111111000101010010011, input B = 00100100110111100110100000010110, output OUT = 00001111010000100011010100001111
+# refmod: input A =   702515859, input B =   618555414, output OUT =   255997199
+# refmod: input A = 00101001110111111000101010010011, input B = 00100100110111100110100000010110, output OUT = 00001111010000100011010100001111
+# UVM_INFO @ 405: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  854581220, input B =  879325268, output OUT =  668646407
+# multiplier: input A = 00110010111011111101111111100100, input B = 00110100011010010111000001010100, output OUT = 00100111110110101011110000000111
+# refmod: input A =   854581220, input B =   879325268, output OUT =   668646407
+# refmod: input A = 00110010111011111101111111100100, input B = 00110100011010010111000001010100, output OUT = 00100111110110101011110000000111
+# UVM_INFO @ 435: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  620435234, input B =  759086125, output OUT =  314250172
+# multiplier: input A = 00100100111110110001011100100010, input B = 00101101001111101011110000101101, output OUT = 00010010101110110001001110111100
+# refmod: input A =   620435234, input B =   759086125, output OUT =   314250172
+# refmod: input A = 00100100111110110001011100100010, input B = 00101101001111101011110000101101, output OUT = 00010010101110110001001110111100
+# UVM_INFO @ 465: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  583885002, input B =  989251527, output OUT =  507902792
+# multiplier: input A = 00100010110011010110000011001010, input B = 00111010111101101100011111000111, output OUT = 00011110010001011111101101001000
+# refmod: input A =   583885002, input B =   989251527, output OUT =   507902792
+# refmod: input A = 00100010110011010110000011001010, input B = 00111010111101101100011111000111, output OUT = 00011110010001011111101101001000
+# UVM_INFO @ 495: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  692141895, input B =  877522225, output OUT =  505115320
+# multiplier: input A = 00101001010000010011111101000111, input B = 00110100010011011110110100110001, output OUT = 00011110000110110111001010111000
+# refmod: input A =   692141895, input B =   877522225, output OUT =   505115320
+# refmod: input A = 00101001010000010011111101000111, input B = 00110100010011011110110100110001, output OUT = 00011110000110110111001010111000
+# UVM_INFO @ 525: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A = 1023507931, input B =  529828563, output OUT =  487998966
+# multiplier: input A = 00111101000000010111110111011011, input B = 00011111100101001000101011010011, output OUT = 00011101000101100100010111110110
+# refmod: input A =  1023507931, input B =   529828563, output OUT =   487998966
+# refmod: input A = 00111101000000010111110111011011, input B = 00011111100101001000101011010011, output OUT = 00011101000101100100010111110110
+# UVM_INFO @ 555: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  775192661, input B =  973041135, output OUT =  682891608
+# multiplier: input A = 00101110001101001000000001010101, input B = 00111001111111110110110111101111, output OUT = 00101000101101000001100101011000
+# refmod: input A =   775192661, input B =   973041135, output OUT =   682891608
+# refmod: input A = 00101110001101001000000001010101, input B = 00111001111111110110110111101111, output OUT = 00101000101101000001100101011000
+# UVM_INFO @ 585: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  676558336, input B =  638349861, output OUT =  250086818
+# multiplier: input A = 00101000010100110111011000000000, input B = 00100110000011000111001000100101, output OUT = 00001110111010000000010110100010
+# refmod: input A =   676558336, input B =   638349861, output OUT =   250086818
+# refmod: input A = 00101000010100110111011000000000, input B = 00100110000011000111001000100101, output OUT = 00001110111010000000010110100010
+# UVM_INFO @ 615: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A = 1011730066, input B =  571273436, output OUT =  518165606
+# multiplier: input A = 00111100010011011100011010010010, input B = 00100010000011001111000011011100, output OUT = 00011110111000101001010001100110
+# refmod: input A =  1011730066, input B =   571273436, output OUT =   518165606
+# refmod: input A = 00111100010011011100011010010010, input B = 00100010000011001111000011011100, output OUT = 00011110111000101001010001100110
+# UVM_INFO @ 645: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  987836524, input B =  784143623, output OUT =  707154751
+# multiplier: input A = 00111010111000010011000001101100, input B = 00101110101111010001010100000111, output OUT = 00101010001001100101001100111111
+# refmod: input A =   987836524, input B =   784143623, output OUT =   707154751
+# refmod: input A = 00111010111000010011000001101100, input B = 00101110101111010001010100000111, output OUT = 00101010001001100101001100111111
+# UVM_INFO @ 675: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  720830278, input B =  724980373, output OUT =  380627241
+# multiplier: input A = 00101010111101101111111101000110, input B = 00101011001101100101001010010101, output OUT = 00010110101011111110100100101001
+# refmod: input A =   720830278, input B =   724980373, output OUT =   380627241
+# refmod: input A = 00101010111101101111111101000110, input B = 00101011001101100101001010010101, output OUT = 00010110101011111110100100101001
+# UVM_INFO @ 705: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  982656231, input B =  987783349, output OUT =  905975679
+# multiplier: input A = 00111010100100100010010011100111, input B = 00111010111000000110000010110101, output OUT = 00110110000000000001011101111111
+# refmod: input A =   982656231, input B =   987783349, output OUT =   905975679
+# refmod: input A = 00111010100100100010010011100111, input B = 00111010111000000110000010110101, output OUT = 00110110000000000001011101111111
+# UVM_INFO @ 735: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  865769678, input B =  565919012, output OUT =  367142165
+# multiplier: input A = 00110011100110101001100011001110, input B = 00100001101110110011110100100100, output OUT = 00010101111000100010010100010101
+# refmod: input A =   865769678, input B =   565919012, output OUT =   367142165
+# refmod: input A = 00110011100110101001100011001110, input B = 00100001101110110011110100100100, output OUT = 00010101111000100010010100010101
+# UVM_INFO @ 765: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  894862515, input B =  734555687, output OUT =  564655098
+# multiplier: input A = 00110101010101101000010010110011, input B = 00101011110010000110111000100111, output OUT = 00100001101001111111001111111010
+# refmod: input A =   894862515, input B =   734555687, output OUT =   564655098
+# refmod: input A = 00110101010101101000010010110011, input B = 00101011110010000110111000100111, output OUT = 00100001101001111111001111111010
+# UVM_INFO @ 795: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  908284103, input B =  885721187, output OUT =  729908839
+# multiplier: input A = 00110110001000110101000011000111, input B = 00110100110010110000100001100011, output OUT = 00101011100000011000011001100111
+# refmod: input A =   908284103, input B =   885721187, output OUT =   729908839
+# refmod: input A = 00110110001000110101000011000111, input B = 00110100110010110000100001100011, output OUT = 00101011100000011000011001100111
+# UVM_INFO @ 825: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  655877679, input B =  839817124, output OUT =  430520144
+# multiplier: input A = 00100111000101111110011000101111, input B = 00110010000011101001011110100100, output OUT = 00011001101010010011011101010000
+# refmod: input A =   655877679, input B =   839817124, output OUT =   430520144
+# refmod: input A = 00100111000101111110011000101111, input B = 00110010000011101001011110100100, output OUT = 00011001101010010011011101010000
+# UVM_INFO @ 855: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  877944084, input B =  946605021, output OUT =  759418790
+# multiplier: input A = 00110100010101000101110100010100, input B = 00111000011011000000101111011101, output OUT = 00101101010000111100111110100110
+# refmod: input A =   877944084, input B =   946605021, output OUT =   759418790
+# refmod: input A = 00110100010101000101110100010100, input B = 00111000011011000000101111011101, output OUT = 00101101010000111100111110100110
+# UVM_INFO @ 885: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  907291171, input B =  670302450, output OUT =  512571573
+# multiplier: input A = 00110110000101000010101000100011, input B = 00100111111101000000000011110010, output OUT = 00011110100011010011100010110101
+# refmod: input A =   907291171, input B =   670302450, output OUT =   512571573
+# refmod: input A = 00110110000101000010101000100011, input B = 00100111111101000000000011110010, output OUT = 00011110100011010011100010110101
+# UVM_INFO @ 915: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  914963604, input B =  636868021, output OUT =  486787466
+# multiplier: input A = 00110110100010010011110010010100, input B = 00100101111101011101010110110101, output OUT = 00011101000000111100100110001010
+# refmod: input A =   914963604, input B =   636868021, output OUT =   486787466
+# refmod: input A = 00110110100010010011110010010100, input B = 00100101111101011101010110110101, output OUT = 00011101000000111100100110001010
+# UVM_INFO @ 945: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  655388877, input B =  601326128, output OUT =  192098401
+# multiplier: input A = 00100111000100000111000011001101, input B = 00100011110101111000001000110000, output OUT = 00001011011100110011000001100001
+# refmod: input A =   655388877, input B =   601326128, output OUT =   192098401
+# refmod: input A = 00100111000100000111000011001101, input B = 00100011110101111000001000110000, output OUT = 00001011011100110011000001100001
+# UVM_INFO @ 975: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  609166134, input B =  563843124, output OUT =  108772863
+# multiplier: input A = 00100100010011110010001100110110, input B = 00100001100110111001000000110100, output OUT = 00000110011110111011110111111111
+# refmod: input A =   609166134, input B =   563843124, output OUT =   108772863
+# refmod: input A = 00100100010011110010001100110110, input B = 00100001100110111001000000110100, output OUT = 00000110011110111011110111111111
+# UVM_INFO @ 1005: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  999617372, input B =  604079482, output OUT =  538359958
+# multiplier: input A = 00111011100101001111001101011100, input B = 00100100000000011000010101111010, output OUT = 00100000000101101011100010010110
+# refmod: input A =   999617372, input B =   604079482, output OUT =   538359958
+# refmod: input A = 00111011100101001111001101011100, input B = 00100100000000011000010101111010, output OUT = 00100000000101101011100010010110
+# UVM_INFO @ 1035: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  633698945, input B = 1045211402, output OUT =  614326276
+# multiplier: input A = 00100101110001010111101010000001, input B = 00111110010011001010100100001010, output OUT = 00100100100111011110000000000100
+# refmod: input A =   633698945, input B =  1045211402, output OUT =   614326276
+# refmod: input A = 00100101110001010111101010000001, input B = 00111110010011001010100100001010, output OUT = 00100100100111011110000000000100
+# UVM_INFO @ 1065: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  947449223, input B =  821767006, output OUT =  703871759
+# multiplier: input A = 00111000011110001110110110000111, input B = 00110000111110110010101101011110, output OUT = 00101001111101000011101100001111
+# refmod: input A =   947449223, input B =   821767006, output OUT =   703871759
+# refmod: input A = 00111000011110001110110110000111, input B = 00110000111110110010101101011110, output OUT = 00101001111101000011101100001111
+# UVM_INFO @ 1095: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  775136942, input B = 1049887942, output OUT =  760201068
+# multiplier: input A = 00101110001100111010011010101110, input B = 00111110100101000000010011000110, output OUT = 00101101010011111011111101101100
+# refmod: input A =   775136942, input B =  1049887942, output OUT =   760201068
+# refmod: input A = 00101110001100111010011010101110, input B = 00111110100101000000010011000110, output OUT = 00101101010011111011111101101100
+# UVM_INFO @ 1125: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  733520212, input B =  748589253, output OUT =  417642485
+# multiplier: input A = 00101011101110001010000101010100, input B = 00101100100111101001000011000101, output OUT = 00011000111001001011011111110101
+# refmod: input A =   733520212, input B =   748589253, output OUT =   417642485
+# refmod: input A = 00101011101110001010000101010100, input B = 00101100100111101001000011000101, output OUT = 00011000111001001011011111110101
+# UVM_INFO @ 1155: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  819615437, input B =  701825284, output OUT =  456502038
+# multiplier: input A = 00110000110110100101011011001101, input B = 00101001110101010000000100000100, output OUT = 00011011001101011010101100010110
+# refmod: input A =   819615437, input B =   701825284, output OUT =   456502038
+# refmod: input A = 00110000110110100101011011001101, input B = 00101001110101010000000100000100, output OUT = 00011011001101011010101100010110
+# UVM_INFO @ 1185: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  550963651, input B =  993635533, output OUT =  479983413
+# multiplier: input A = 00100000110101110000100111000011, input B = 00111011001110011010110011001101, output OUT = 00011100100110111111011100110101
+# refmod: input A =   550963651, input B =   993635533, output OUT =   479983413
+# refmod: input A = 00100000110101110000100111000011, input B = 00111011001110011010110011001101, output OUT = 00011100100110111111011100110101
+# UVM_INFO @ 1215: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  797247165, input B =  583568453, output OUT =  315649102
+# multiplier: input A = 00101111100001010000011010111101, input B = 00100010110010001000110001000101, output OUT = 00010010110100000110110001001110
+# refmod: input A =   797247165, input B =   583568453, output OUT =   315649102
+# refmod: input A = 00101111100001010000011010111101, input B = 00100010110010001000110001000101, output OUT = 00010010110100000110110001001110
+# UVM_INFO @ 1245: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  560954890, input B =  768568053, output OUT =  264375033
+# multiplier: input A = 00100001011011110111111000001010, input B = 00101101110011110110101011110101, output OUT = 00001111110000100000101011111001
+# refmod: input A =   560954890, input B =   768568053, output OUT =   264375033
+# refmod: input A = 00100001011011110111111000001010, input B = 00101101110011110110101011110101, output OUT = 00001111110000100000101011111001
+# UVM_INFO @ 1275: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  674699285, input B =  612145223, output OUT =  221554846
+# multiplier: input A = 00101000001101110001100000010101, input B = 00100100011111001001100001000111, output OUT = 00001101001101001010100010011110
+# refmod: input A =   674699285, input B =   612145223, output OUT =   221554846
+# refmod: input A = 00101000001101110001100000010101, input B = 00100100011111001001100001000111, output OUT = 00001101001101001010100010011110
+# UVM_INFO @ 1305: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  533231518, input B = 1049342426, output OUT =  517654640
+# multiplier: input A = 00011111110010000111011110011110, input B = 00111110100010111011000111011010, output OUT = 00011110110110101100100001110000
+# refmod: input A =   533231518, input B =  1049342426, output OUT =   517654640
+# refmod: input A = 00011111110010000111011110011110, input B = 00111110100010111011000111011010, output OUT = 00011110110110101100100001110000
+# UVM_INFO @ 1335: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  660201736, input B =  651835115, output OUT =  247052382
+# multiplier: input A = 00100111010110011110000100001000, input B = 00100110110110100011011011101011, output OUT = 00001110101110011011100001011110
+# refmod: input A =   660201736, input B =   651835115, output OUT =   247052382
+# refmod: input A = 00100111010110011110000100001000, input B = 00100110110110100011011011101011, output OUT = 00001110101110011011100001011110
+# UVM_INFO @ 1365: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  617341603, input B =  732416099, output OUT =  285581424
+# multiplier: input A = 00100100110010111110001010100011, input B = 00101011101001111100100001100011, output OUT = 00010001000001011010000001110000
+# refmod: input A =   617341603, input B =   732416099, output OUT =   285581424
+# refmod: input A = 00100100110010111110001010100011, input B = 00101011101001111100100001100011, output OUT = 00010001000001011010000001110000
+# UVM_INFO @ 1395: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  652826932, input B =  551309938, output OUT =  138990543
+# multiplier: input A = 00100110111010010101100100110100, input B = 00100000110111000101001001110010, output OUT = 00001000010010001101001111001111
+# refmod: input A =   652826932, input B =   551309938, output OUT =   138990543
+# refmod: input A = 00100110111010010101100100110100, input B = 00100000110111000101001001110010, output OUT = 00001000010010001101001111001111
+# UVM_INFO @ 1425: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  535797166, input B =  742793352, output OUT =  213480040
+# multiplier: input A = 00011111111011111001110110101110, input B = 00101100010001100010000010001000, output OUT = 00001100101110010111001001101000
+# refmod: input A =   535797166, input B =   742793352, output OUT =   213480040
+# refmod: input A = 00011111111011111001110110101110, input B = 00101100010001100010000010001000, output OUT = 00001100101110010111001001101000
+# UVM_INFO @ 1455: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  891511969, input B =  927191711, output OUT =  754579497
+# multiplier: input A = 00110101001000110110010010100001, input B = 00110111010000111101001010011111, output OUT = 00101100111110011111100000101001
+# refmod: input A =   891511969, input B =   927191711, output OUT =   754579497
+# refmod: input A = 00110101001000110110010010100001, input B = 00110111010000111101001010011111, output OUT = 00101100111110011111100000101001
+# UVM_INFO @ 1485: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  566730231, input B = 1064194134, output OUT =  565826432
+# multiplier: input A = 00100001110001111001110111110111, input B = 00111111011011100101000001010110, output OUT = 00100001101110011101001110000000
+# refmod: input A =   566730231, input B =  1064194134, output OUT =   565826432
+# refmod: input A = 00100001110001111001110111110111, input B = 00111111011011100101000001010110, output OUT = 00100001101110011101001110000000
+# UVM_INFO @ 1515: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  568778626, input B =  704912465, output OUT =  208554385
+# multiplier: input A = 00100001111001101101111110000010, input B = 00101010000001000001110001010001, output OUT = 00001100011011100100100110010001
+# refmod: input A =   568778626, input B =   704912465, output OUT =   208554385
+# refmod: input A = 00100001111001101101111110000010, input B = 00101010000001000001110001010001, output OUT = 00001100011011100100100110010001
+# UVM_INFO @ 1545: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  651762364, input B =  944641875, output OUT =  531547979
+# multiplier: input A = 00100110110110010001101010111100, input B = 00111000010011100001011101010011, output OUT = 00011111101011101100011101001011
+# refmod: input A =   651762364, input B =   944641875, output OUT =   531547979
+# refmod: input A = 00100110110110010001101010111100, input B = 00111000010011100001011101010011, output OUT = 00011111101011101100011101001011
+# UVM_INFO @ 1575: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  938885233, input B = 1007388759, output OUT =  881211427
+# multiplier: input A = 00110111111101100100000001110001, input B = 00111100000010111000100001010111, output OUT = 00110100100001100011100000100011
+# refmod: input A =   938885233, input B =  1007388759, output OUT =   881211427
+# refmod: input A = 00110111111101100100000001110001, input B = 00111100000010111000100001010111, output OUT = 00110100100001100011100000100011
+# UVM_INFO @ 1605: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  576555042, input B = 1016764892, output OUT =  528861449
+# multiplier: input A = 00100010010111011000100000100010, input B = 00111100100110101001100111011100, output OUT = 00011111100001011100100100001001
+# refmod: input A =   576555042, input B =  1016764892, output OUT =   528861449
+# refmod: input A = 00100010010111011000100000100010, input B = 00111100100110101001100111011100, output OUT = 00011111100001011100100100001001
+# UVM_INFO @ 1635: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  598453754, input B =  901593549, output OUT =  436063338
+# multiplier: input A = 00100011101010111010110111111010, input B = 00110101101111010011100111001101, output OUT = 00011001111111011100110001101010
+# refmod: input A =   598453754, input B =   901593549, output OUT =   436063338
+# refmod: input A = 00100011101010111010110111111010, input B = 00110101101111010011100111001101, output OUT = 00011001111111011100110001101010
+# UVM_INFO @ 1665: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  598460410, input B =  780405706, output OUT =  313603596
+# multiplier: input A = 00100011101010111100011111111010, input B = 00101110100001000000101111001010, output OUT = 00010010101100010011011000001100
+# refmod: input A =   598460410, input B =   780405706, output OUT =   313603596
+# refmod: input A = 00100011101010111100011111111010, input B = 00101110100001000000101111001010, output OUT = 00010010101100010011011000001100
+# UVM_INFO @ 1695: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A = 1007175081, input B =  633854100, output OUT =  575980256
+# multiplier: input A = 00111100000010000100010110101001, input B = 00100101110001111101100010010100, output OUT = 00100010010101001100001011100000
+# refmod: input A =  1007175081, input B =   633854100, output OUT =   575980256
+# refmod: input A = 00111100000010000100010110101001, input B = 00100101110001111101100010010100, output OUT = 00100010010101001100001011100000
+# UVM_INFO @ 1725: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  957628191, input B =  777116653, output OUT =  670240199
+# multiplier: input A = 00111001000101000011111100011111, input B = 00101110010100011101101111101101, output OUT = 00100111111100110000110111000111
+# refmod: input A =   957628191, input B =   777116653, output OUT =   670240199
+# refmod: input A = 00111001000101000011111100011111, input B = 00101110010100011101101111101101, output OUT = 00100111111100110000110111000111
+# UVM_INFO @ 1755: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  820064909, input B = 1012728141, output OUT =  767715785
+# multiplier: input A = 00110000111000010011001010001101, input B = 00111100010111010000000101001101, output OUT = 00101101110000100110100111001001
+# refmod: input A =   820064909, input B =  1012728141, output OUT =   767715785
+# refmod: input A = 00110000111000010011001010001101, input B = 00111100010111010000000101001101, output OUT = 00101101110000100110100111001001
+# UVM_INFO @ 1785: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  642777177, input B = 1024320457, output OUT =  602313353
+# multiplier: input A = 00100110010100000000000001011001, input B = 00111101000011011110001111001001, output OUT = 00100011111001101001001010001001
+# refmod: input A =   642777177, input B =  1024320457, output OUT =   602313353
+# refmod: input A = 00100110010100000000000001011001, input B = 00111101000011011110001111001001, output OUT = 00100011111001101001001010001001
+# UVM_INFO @ 1815: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  807189849, input B =  647160226, output OUT =  389274693
+# multiplier: input A = 00110000000111001011110101011001, input B = 00100110100100101110000110100010, output OUT = 00010111001100111101110001000101
+# refmod: input A =   807189849, input B =   647160226, output OUT =   389274693
+# refmod: input A = 00110000000111001011110101011001, input B = 00100110100100101110000110100010, output OUT = 00010111001100111101110001000101
+# UVM_INFO @ 1845: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  739434744, input B =  754674421, output OUT =  428883953
+# multiplier: input A = 00101100000100101110000011111000, input B = 00101100111110110110101011110101, output OUT = 00011001100100000011111111110001
+# refmod: input A =   739434744, input B =   754674421, output OUT =   428883953
+# refmod: input A = 00101100000100101110000011111000, input B = 00101100111110110110101011110101, output OUT = 00011001100100000011111111110001
+# UVM_INFO @ 1875: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  873675244, input B =  845504328, output OUT =  654567836
+# multiplier: input A = 00110100000100110011100111101100, input B = 00110010011001010101111101001000, output OUT = 00100111000000111110100110011100
+# refmod: input A =   873675244, input B =   845504328, output OUT =   654567836
+# refmod: input A = 00110100000100110011100111101100, input B = 00110010011001010101111101001000, output OUT = 00100111000000111110100110011100
+# UVM_INFO @ 1905: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  925776206, input B = 1060823470, output OUT =  922639987
+# multiplier: input A = 00110111001011100011100101001110, input B = 00111111001110101110000110101110, output OUT = 00110110111111100101111001110011
+# refmod: input A =   925776206, input B =  1060823470, output OUT =   922639987
+# refmod: input A = 00110111001011100011100101001110, input B = 00111111001110101110000110101110, output OUT = 00110110111111100101111001110011
+# UVM_INFO @ 1935: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  576896001, input B =  643550334, output OUT =  155364338
+# multiplier: input A = 00100010011000101011110000000001, input B = 00100110010110111100110001111110, output OUT = 00001001010000101010101111110010
+# refmod: input A =   576896001, input B =   643550334, output OUT =   155364338
+# refmod: input A = 00100010011000101011110000000001, input B = 00100110010110111100110001111110, output OUT = 00001001010000101010101111110010
+# UVM_INFO @ 1965: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  997783324, input B =  857375570, output OUT =  789988445
+# multiplier: input A = 00111011011110001111011100011100, input B = 00110011000110101000001101010010, output OUT = 00101111000101100100010001011101
+# refmod: input A =   997783324, input B =   857375570, output OUT =   789988445
+# refmod: input A = 00111011011110001111011100011100, input B = 00110011000110101000001101010010, output OUT = 00101111000101100100010001011101
+# UVM_INFO @ 1995: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  949365403, input B =  598647841, output OUT =  483189368
+# multiplier: input A = 00111000100101100010101010011011, input B = 00100011101011101010010000100001, output OUT = 00011100110011001110001001111000
+# refmod: input A =   949365403, input B =   598647841, output OUT =   483189368
+# refmod: input A = 00111000100101100010101010011011, input B = 00100011101011101010010000100001, output OUT = 00011100110011001110001001111000
+# UVM_INFO @ 2025: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  841904790, input B =  995774852, output OUT =  773113120
+# multiplier: input A = 00110010001011100111001010010110, input B = 00111011010110100101000110000100, output OUT = 00101110000101001100010100100000
+# refmod: input A =   841904790, input B =   995774852, output OUT =   773113120
+# refmod: input A = 00110010001011100111001010010110, input B = 00111011010110100101000110000100, output OUT = 00101110000101001100010100100000
+# UVM_INFO @ 2055: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A = 1071793074, input B =  560872850, output OUT =  567447899
+# multiplier: input A = 00111111111000100100001110110010, input B = 00100001011011100011110110010010, output OUT = 00100001110100101001000101011011
+# refmod: input A =  1071793074, input B =   560872850, output OUT =   567447899
+# refmod: input A = 00111111111000100100001110110010, input B = 00100001011011100011110110010010, output OUT = 00100001110100101001000101011011
+# UVM_INFO @ 2085: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  875272718, input B = 1006400222, output OUT =  816396453
+# multiplier: input A = 00110100001010111001101000001110, input B = 00111011111111000111001011011110, output OUT = 00110000101010010011100010100101
+# refmod: input A =   875272718, input B =  1006400222, output OUT =   816396453
+# refmod: input A = 00110100001010111001101000001110, input B = 00111011111111000111001011011110, output OUT = 00110000101010010011100010100101
+# UVM_INFO @ 2115: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  645322368, input B =  569143077, output OUT =  149158121
+# multiplier: input A = 00100110011101101101011010000000, input B = 00100001111011000110111100100101, output OUT = 00001000111000111111100011101001
+# refmod: input A =   645322368, input B =   569143077, output OUT =   149158121
+# refmod: input A = 00100110011101101101011010000000, input B = 00100001111011000110111100100101, output OUT = 00001000111000111111100011101001
+# UVM_INFO @ 2145: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  898303864, input B =  845848893, output OUT =  679401673
+# multiplier: input A = 00110101100010110000011101111000, input B = 00110010011010101010000100111101, output OUT = 00101000011111101101100011001001
+# refmod: input A =   898303864, input B =   845848893, output OUT =   679401673
+# refmod: input A = 00110101100010110000011101111000, input B = 00110010011010101010000100111101, output OUT = 00101000011111101101100011001001
+# UVM_INFO @ 2175: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  682725295, input B =  727695583, output OUT =  345715184
+# multiplier: input A = 00101000101100011000111110101111, input B = 00101011010111111100000011011111, output OUT = 00010100100110110011000111110000
+# refmod: input A =   682725295, input B =   727695583, output OUT =   345715184
+# refmod: input A = 00101000101100011000111110101111, input B = 00101011010111111100000011011111, output OUT = 00010100100110110011000111110000
+# UVM_INFO @ 2205: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  563485715, input B =  594731237, output OUT =   93219433
+# multiplier: input A = 00100001100101100001110000010011, input B = 00100011011100101110000011100101, output OUT = 00000101100011100110101001101001
+# refmod: input A =   563485715, input B =   594731237, output OUT =    93219433
+# refmod: input A = 00100001100101100001110000010011, input B = 00100011011100101110000011100101, output OUT = 00000101100011100110101001101001
+# UVM_INFO @ 2235: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  942270527, input B =  680553081, output OUT =  557822620
+# multiplier: input A = 00111000001010011110100000111111, input B = 00101000100100000110101001111001, output OUT = 00100001001111111011001010011100
+# refmod: input A =   942270527, input B =   680553081, output OUT =   557822620
+# refmod: input A = 00111000001010011110100000111111, input B = 00101000100100000110101001111001, output OUT = 00100001001111111011001010011100
+# UVM_INFO @ 2265: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  587184308, input B =  692763997, output OUT =  214598886
+# multiplier: input A = 00100010111111111011100010110100, input B = 00101001010010101011110101011101, output OUT = 00001100110010101000010011100110
+# refmod: input A =   587184308, input B =   692763997, output OUT =   214598886
+# refmod: input A = 00100010111111111011100010110100, input B = 00101001010010101011110101011101, output OUT = 00001100110010101000010011100110
+# UVM_INFO @ 2295: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  706914549, input B = 1008157481, output OUT =  650131626
+# multiplier: input A = 00101010001000101010100011110101, input B = 00111100000101110100001100101001, output OUT = 00100110110000000011100010101010
+# refmod: input A =   706914549, input B =  1008157481, output OUT =   650131626
+# refmod: input A = 00101010001000101010100011110101, input B = 00111100000101110100001100101001, output OUT = 00100110110000000011100010101010
+# UVM_INFO @ 2325: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  667603414, input B =  883165366, output OUT =  486667604
+# multiplier: input A = 00100111110010101101000111010110, input B = 00110100101001000000100010110110, output OUT = 00011101000000011111010101010100
+# refmod: input A =   667603414, input B =   883165366, output OUT =   486667604
+# refmod: input A = 00100111110010101101000111010110, input B = 00110100101001000000100010110110, output OUT = 00011101000000011111010101010100
+# UVM_INFO @ 2355: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  575113284, input B =  834859281, output OUT =  345501992
+# multiplier: input A = 00100010010001111000100001000100, input B = 00110001110000101111000100010001, output OUT = 00010100100101111111000100101000
+# refmod: input A =   575113284, input B =   834859281, output OUT =   345501992
+# refmod: input A = 00100010010001111000100001000100, input B = 00110001110000101111000100010001, output OUT = 00010100100101111111000100101000
+# UVM_INFO @ 2385: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  983527281, input B =  807614933, output OUT =  726355955
+# multiplier: input A = 00111010100111110110111101110001, input B = 00110000001000110011100111010101, output OUT = 00101011010010110100111111110011
+# refmod: input A =   983527281, input B =   807614933, output OUT =   726355955
+# refmod: input A = 00111010100111110110111101110001, input B = 00110000001000110011100111010101, output OUT = 00101011010010110100111111110011
+# UVM_INFO @ 2415: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  894774948, input B =  899944598, output OUT =  730374065
+# multiplier: input A = 00110101010101010010111010100100, input B = 00110101101001000001000010010110, output OUT = 00101011100010001001111110110001
+# refmod: input A =   894774948, input B =   899944598, output OUT =   730374065
+# refmod: input A = 00110101010101010010111010100100, input B = 00110101101001000001000010010110, output OUT = 00101011100010001001111110110001
+# UVM_INFO @ 2445: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  857327474, input B =  926605780, output OUT =  719357217
+# multiplier: input A = 00110011000110011100011101110010, input B = 00110111001110101110000111010100, output OUT = 00101010111000001000010100100001
+# refmod: input A =   857327474, input B =   926605780, output OUT =   719357217
+# refmod: input A = 00110011000110011100011101110010, input B = 00110111001110101110000111010100, output OUT = 00101010111000001000010100100001
+# UVM_INFO @ 2475: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  831594791, input B =  858426577, output OUT =  625041329
+# multiplier: input A = 00110001100100010010000100100111, input B = 00110011001010101000110011010001, output OUT = 00100101010000010101111110110001
+# refmod: input A =   831594791, input B =   858426577, output OUT =   625041329
+# refmod: input A = 00110001100100010010000100100111, input B = 00110011001010101000110011010001, output OUT = 00100101010000010101111110110001
+# UVM_INFO @ 2505: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  935304125, input B =  990122855, output OUT =  860206502
+# multiplier: input A = 00110111101111111001101110111101, input B = 00111011000001000001001101100111, output OUT = 00110011010001011011010110100110
+# refmod: input A =   935304125, input B =   990122855, output OUT =   860206502
+# refmod: input A = 00110111101111111001101110111101, input B = 00111011000001000001001101100111, output OUT = 00110011010001011011010110100110
+# UVM_INFO @ 2535: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  860147704, input B =  906680393, output OUT =  701856967
+# multiplier: input A = 00110011010001001100111111111000, input B = 00110110000010101101100001001001, output OUT = 00101001110101010111110011000111
+# refmod: input A =   860147704, input B =   906680393, output OUT =   701856967
+# refmod: input A = 00110011010001001100111111111000, input B = 00110110000010101101100001001001, output OUT = 00101001110101010111110011000111
+# UVM_INFO @ 2565: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  736531544, input B =  606475354, output OUT =  278238854
+# multiplier: input A = 00101011111001101001010001011000, input B = 00100100001001100001010001011010, output OUT = 00010000100101011001011010000110
+# refmod: input A =   736531544, input B =   606475354, output OUT =   278238854
+# refmod: input A = 00101011111001101001010001011000, input B = 00100100001001100001010001011010, output OUT = 00010000100101011001011010000110
+# UVM_INFO @ 2595: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  832823799, input B =  838352628, output OUT =  606006068
+# multiplier: input A = 00110001101000111110000111110111, input B = 00110001111110000011111011110100, output OUT = 00100100000111101110101100110100
+# refmod: input A =   832823799, input B =   838352628, output OUT =   606006068
+# refmod: input A = 00110001101000111110000111110111, input B = 00110001111110000011111011110100, output OUT = 00100100000111101110101100110100
+# UVM_INFO @ 2625: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  647233068, input B =  585132649, output OUT =  167885802
+# multiplier: input A = 00100110100100111111111000101100, input B = 00100010111000000110101001101001, output OUT = 00001010000000011011101111101010
+# refmod: input A =   647233068, input B =   585132649, output OUT =   167885802
+# refmod: input A = 00100110100100111111111000101100, input B = 00100010111000000110101001101001, output OUT = 00001010000000011011101111101010
+# UVM_INFO @ 2655: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  701331995, input B = 1050134000, output OUT =  687055819
+# multiplier: input A = 00101001110011010111101000011011, input B = 00111110100101111100010111110000, output OUT = 00101000111100111010001111001011
+# refmod: input A =   701331995, input B =  1050134000, output OUT =   687055819
+# refmod: input A = 00101001110011010111101000011011, input B = 00111110100101111100010111110000, output OUT = 00101000111100111010001111001011
+# UVM_INFO @ 2685: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  944768603, input B =  697147186, output OUT =  577120697
+# multiplier: input A = 00111000010100000000011001011011, input B = 00101001100011011001111100110010, output OUT = 00100010011001100010100110111001
+# refmod: input A =   944768603, input B =   697147186, output OUT =   577120697
+# refmod: input A = 00111000010100000000011001011011, input B = 00101001100011011001111100110010, output OUT = 00100010011001100010100110111001
+# UVM_INFO @ 2715: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A = 1028363310, input B =  560380210, output OUT =  523729511
+# multiplier: input A = 00111101010010111001010000101110, input B = 00100001011001101011100100110010, output OUT = 00011111001101110111101001100111
+# refmod: input A =  1028363310, input B =   560380210, output OUT =   523729511
+# refmod: input A = 00111101010010111001010000101110, input B = 00100001011001101011100100110010, output OUT = 00011111001101110111101001100111
+# UVM_INFO @ 2745: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  544154165, input B =  557396246, output OUT =   36502930
+# multiplier: input A = 00100000011011110010001000110101, input B = 00100001001110010011000100010110, output OUT = 00000010001011001111110110010010
+# refmod: input A =   544154165, input B =   557396246, output OUT =    36502930
+# refmod: input A = 00100000011011110010001000110101, input B = 00100001001110010011000100010110, output OUT = 00000010001011001111110110010010
+# UVM_INFO @ 2775: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  872082617, input B = 1015013737, output OUT =  821743293
+# multiplier: input A = 00110011111110101110110010111001, input B = 00111100011111111110000101101001, output OUT = 00110000111110101100111010111101
+# refmod: input A =   872082617, input B =  1015013737, output OUT =   821743293
+# refmod: input A = 00110011111110101110110010111001, input B = 00111100011111111110000101101001, output OUT = 00110000111110101100111010111101
+# UVM_INFO @ 2805: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  570084926, input B =  791751749, output OUT =  296588280
+# multiplier: input A = 00100001111110101100111000111110, input B = 00101111001100010010110001000101, output OUT = 00010001101011011001001111111000
+# refmod: input A =   570084926, input B =   791751749, output OUT =   296588280
+# refmod: input A = 00100001111110101100111000111110, input B = 00101111001100010010110001000101, output OUT = 00010001101011011001001111111000
+# UVM_INFO @ 2835: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  691426468, input B =  791652435, output OUT =  419051390
+# multiplier: input A = 00101001001101100101010010100100, input B = 00101111001011111010100001010011, output OUT = 00011000111110100011011101111110
+# refmod: input A =   691426468, input B =   791652435, output OUT =   419051390
+# refmod: input A = 00101001001101100101010010100100, input B = 00101111001011111010100001010011, output OUT = 00011000111110100011011101111110
+# UVM_INFO @ 2865: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A = 1012311174, input B =  928263543, output OUT =  875685470
+# multiplier: input A = 00111100010101101010010010000110, input B = 00110111010101000010110101110111, output OUT = 00110100001100011110011001011110
+# refmod: input A =  1012311174, input B =   928263543, output OUT =   875685470
+# refmod: input A = 00111100010101101010010010000110, input B = 00110111010101000010110101110111, output OUT = 00110100001100011110011001011110
+# UVM_INFO @ 2895: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  879711228, input B =  929677321, output OUT =  744130296
+# multiplier: input A = 00110100011011110101001111111100, input B = 00110111011010011100000000001001, output OUT = 00101100010110101000011011111000
+# refmod: input A =   879711228, input B =   929677321, output OUT =   744130296
+# refmod: input A = 00110100011011110101001111111100, input B = 00110111011010011100000000001001, output OUT = 00101100010110101000011011111000
+# UVM_INFO @ 2925: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  622719167, input B = 1063859272, output OUT =  621797471
+# multiplier: input A = 00100101000111011111000010111111, input B = 00111111011010010011010001001000, output OUT = 00100101000011111110000001011111
+# refmod: input A =   622719167, input B =  1063859272, output OUT =   621797471
+# refmod: input A = 00100101000111011111000010111111, input B = 00111111011010010011010001001000, output OUT = 00100101000011111110000001011111
+# UVM_INFO @ 2955: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  720553367, input B =  708843116, output OUT =  364259701
+# multiplier: input A = 00101010111100101100010110010111, input B = 00101010010000000001011001101100, output OUT = 00010101101101100010100101110101
+# refmod: input A =   720553367, input B =   708843116, output OUT =   364259701
+# refmod: input A = 00101010111100101100010110010111, input B = 00101010010000000001011001101100, output OUT = 00010101101101100010100101110101
+# UVM_INFO @ 2985: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  643885178, input B =  659666429, output OUT =  238566830
+# multiplier: input A = 00100110011000001110100001111010, input B = 00100111010100011011010111111101, output OUT = 00001110001110000011110110101110
+# refmod: input A =   643885178, input B =   659666429, output OUT =   238566830
+# refmod: input A = 00100110011000001110100001111010, input B = 00100111010100011011010111111101, output OUT = 00001110001110000011110110101110
+# UVM_INFO @ 3015: uvm_test_top.env_h.comp [Comparator Match] 
+# multiplier: input A =  667316905, input B =  569275203, output OUT =  171497459
+# multiplier: input A = 00100111110001100111001010101001, input B = 00100001111011100111001101000011, output OUT = 00001010001110001101011111110011
+# refmod: input A =   667316905, input B =   569275203, output OUT =   171497459
+# refmod: input A = 00100111110001100111001010101001, input B = 00100001111011100111001101000011, output OUT = 00001010001110001101011111110011
+# UVM_INFO @ 3045: uvm_test_top.env_h.comp [Comparator Match] 
+# UVM_INFO verilog_src/uvm-1.1d/src/base/uvm_objection.svh(1267) @ 3045: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# UVM_INFO ../tb/env.sv(42) @ 3045: uvm_test_top.env_h [env] Reporting matched 101
+# 
+# --- UVM Report Summary ---
+# 
+# ** Report counts by severity
+# UVM_INFO :  106
+# UVM_WARNING :    0
+# UVM_ERROR :    0
+# UVM_FATAL :    0
+# ** Report counts by id
+# [Comparator Match]   101
+# [Questa UVM]     2
+# [RNTST]     1
+# [TEST_DONE]     1
+# [env]     1
+# ** Note: $finish    : /software/mentor/questa10.7c/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh(430)
+#    Time: 3045 ns  Iteration: 58  Instance: /top
+# Break in Task uvm_pkg/uvm_root::run_test at /software/mentor/questa10.7c/questasim/linux_x86_64/../verilog_src/uvm-1.1d/src/base/uvm_root.svh line 430

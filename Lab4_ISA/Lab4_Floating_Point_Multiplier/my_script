@@ -1,0 +1,21 @@
+source /software/scripts/init_questa10.7c
+
+vlib work
+
+vlog -sv ../tb/top.sv
+vsim top
+run 4 ussource /software/scripts/init_questa10.7c
+
+vlib work
+
+
+vcom -93 ../src/unpackfp_unpackfp.vhd
+vcom -93 ../src/packfp_packfp.vhd
+vcom -93 ../src/fpround_fpround.vhd
+vcom -93 ../src/fpnormalize_fpnormalize.vhd
+vcom -93 ../src/fpmul_single_cycle.vhd
+
+vlog -sv ../tb/top.sv
+
+vsim top
+run 4 us

@@ -1,0 +1,21 @@
+source /software/scripts/init_questa10.7c
+
+vlib work
+
+vlog -sv ../tb/top.sv
+vsim top
+run 4 ussource /software/scripts/init_questa10.7c
+
+vlib work
+
+vcom -93 ../lab2/ha.vhd
+vcom -93 ../lab2/fa.vhd
+vcom -93 ../lab2/dadda_tree.vhd
+vcom -93 ../lab2/booth_encoder_component.vhd
+vcom -93 ../lab2/booth_encoder.vhd
+vcom -93 ../lab2/mbe_multiplier.vhd
+
+vlog -sv ../tb/top.sv
+
+vsim top
+run 4 us
